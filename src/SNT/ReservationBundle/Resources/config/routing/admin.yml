@@ -1,0 +1,3 @@
+admin_listebien:
+  path:     /listebien
+  defaults: { _controller: RESERVATIONBundle:Admin:listebien }

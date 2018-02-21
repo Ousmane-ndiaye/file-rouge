@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+{% block title %}Connexion{% endblock %}
+{% block contenus %}
+    <table class="table" id="tablebien" border="2">
+        <thead>
+            <tr>
+                <th>TYPE DE BIEN</th>
+                <th>ADRESSE</th>
+                <th>MONTANT LOCATION</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for bien in biens %}
+            <tr>
+                <td scope="row">{{ bien.nomTypeBien }}</td>
+                <td>{{ bien.adresse }}</td>
+                <td>{{ bien.prixLoc }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
