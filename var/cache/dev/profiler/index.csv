@@ -32,3 +32,6 @@ a296f4,::1,GET,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/
 d8e34c,::1,GET,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/soultana/admin/listebien,1519231050,,200
 5ee659,::1,GET,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/soultana/admin/listebien,1519233657,,200
 742cf2,::1,GET,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/soultana/admin/listebien,1519233679,,200
+2179a4,::1,GET,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/soultana/reservation/,1519242828,,200
+07c935,::1,POST,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/soultana/reservation/,1519242845,,200
+b185cc,::1,GET,http://localhost/File_Rouge/original/soultana.sn/web/app_dev.php/soultana/reservation/,1519242850,,200
