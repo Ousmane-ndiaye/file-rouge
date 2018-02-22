@@ -10,7 +10,7 @@ namespace SNT\ReservationBundle\Repository;
  */
 class BienRepository extends \Doctrine\ORM\EntityRepository
 {
-    public function findBien($lieu, $typeBien, $prixMin, $prixMax): array
+    public function findBien($lieu = '', $typeBien = '', $prixMin = '', $prixMax = ''): array
     {
         $em = $this->getEntityManager();
         $requete = 0;
@@ -22,6 +22,9 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
         }
         if ($lieu == null && $typeBien != null && $prixMin != null && $prixMax != null) {
             $requete = 3;
+        }
+        if ($lieu == null && $typeBien == null && $prixMin != null && $prixMax != null) {
+            $requete = 4;
         }
 
         switch ($requete) {
@@ -88,6 +91,21 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
                 return $query->execute();
             break;
 
+            case 4:
+                $query = $em->createQuery(
+                    'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
+                    FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
+                    WHERE B.disponibilite = true
+                    AND B.prixLoc BETWEEN :prixMin AND :prixMax
+                    AND B.quartier = Q.id
+                    AND Q.ville = V.id
+                    AND B.typeBien = TB.id
+                    AND I.idBien = B.id'
+                )->setParameters(array('prixMax' => $prixMax, 'prixMin' => $prixMin));
+
+                return $query->execute();
+            break;
+
             default:
                 // code...
                 break;
@@ -137,4 +155,34 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
 
         return $query->execute();
     }
+
+    /* public function findBiens($lieu = 0, $typeBien = 0, $prixMin = 0, $prixMax = 0)
+    {
+        $dql = "SELECT b, i FROM SNT\ReservationBundle\Entity\Bien b
+        left Join b.image i Join b.typeBien t Join b.quartier l WHERE b.disponibilite = true";
+        if ($idLocalite != 0) {
+            $dql .= ' AND l.id = :idLoc';
+        }
+        if ($idType != 0) {
+            $dql .= ' AND t.id = :idType';
+        }
+        if ($budget != 0) {
+            $dql .= ' AND b.prixLocation BETWEEN :prixMin AND :prixMax';
+        }
+
+        $query = $this->getEntityManager()->createQuery($dql);
+
+        if ($idLocalite != 0) {
+            $query->setParameter('idLoc', $idLocalite);
+        }
+        if ($idType != 0) {
+            $query->setParameter('idType', $idType);
+        }
+        if ($budget != 0) {
+            $query->setParameter('prixMin', $budget - 10000)
+            ->setParameter('prixMax', $budget + 20000);
+        }
+
+        return $query->getResult();
+    } */
 }

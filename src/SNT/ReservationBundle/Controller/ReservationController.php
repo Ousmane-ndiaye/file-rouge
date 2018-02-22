@@ -19,6 +19,7 @@ class ReservationController extends Controller
         $em = $this->getDoctrine()->getManager();
         $villes = $em->getRepository('RESERVATIONBundle:ville')->findAll();
         $typesBien = $em->getRepository('RESERVATIONBundle:typeBien')->findAll();
+        $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien('', '', '', '');
 
         if ($request->getMethod() == 'POST' && $request->request->get('form_type') == 'rechercher') {
             $lieu = $request->request->get('lieu');
@@ -37,6 +38,7 @@ class ReservationController extends Controller
         return $this->render('reservation/index.html.twig', array(
             'villes' => $villes,
             'typesBien' => $typesBien,
+            'biens' => $biens,
         ));
     }
 
