@@ -21,14 +21,22 @@ class ReservationController extends Controller
         $typesBien = $em->getRepository('RESERVATIONBundle:typeBien')->findAll();
         $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien('', '', '', '');
 
-        if ($request->getMethod() == 'POST' && $request->request->get('form_type') == 'rechercher') {
-            $lieu = $request->request->get('lieu');
-            $typeBien = $request->request->get('typeBien');
+        if ($request->isMethod('POST') && $_POST['form_type'] == 'rechercher') {
+            extract($_POST);
             $prix = explode(',', $request->request->get('prix'));
             $prixMin = $prix[0].'000';
             $prixMax = $prix[1].'000';
+            if (!isset($meuble)) {
+                $meuble = '';
+            }
+            if (!isset($balcon)) {
+                $balcon = '';
+            }
+            if (!isset($parking)) {
+                $parking = '';
+            }
             $em = $this->getDoctrine()->getManager();
-            $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien($lieu, $typeBien, $prixMin, $prixMax);
+            $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien($lieu, $typeBien, $prixMin, $prixMax, $meuble, $balcon, $parking);
 
             return $this->render('reservation/catalogue.html.twig', array(
                 'biens' => $biens,

@@ -10,133 +10,55 @@ namespace SNT\ReservationBundle\Repository;
  */
 class BienRepository extends \Doctrine\ORM\EntityRepository
 {
-    public function findBien($lieu = '', $typeBien = '', $prixMin = '', $prixMax = ''): array
+    public function findBien($lieu = '', $typeBien = '', $prixMin = '', $prixMax = '', $meuble = '', $balcon = '', $parking = ''): array
     {
         $em = $this->getEntityManager();
-        $requete = 0;
-        if ($lieu != null && $typeBien != null && $prixMin != null && $prixMax != null) {
-            $requete = 1;
-        }
-        if ($lieu != null && $typeBien == null && $prixMin != null && $prixMax != null) {
-            $requete = 2;
-        }
-        if ($lieu == null && $typeBien != null && $prixMin != null && $prixMax != null) {
-            $requete = 3;
-        }
-        if ($lieu == null && $typeBien == null && $prixMin != null && $prixMax != null) {
-            $requete = 4;
+        $requete = 'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
+        FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
+        WHERE B.disponibilite = true
+        AND B.quartier = Q.id
+        AND Q.ville = V.id
+        AND B.typeBien = TB.id
+        AND I.idBien = B.id';
+
+        if ($lieu != null) {
+            $requete .= ' AND B.quartier IN (SELECT Qua.id FROM SNT\ReservationBundle\Entity\quartier Qua WHERE Qua.ville IN (SELECT Vil.id FROM SNT\ReservationBundle\Entity\ville Vil WHERE Vil.id = :lieu))';
         }
 
-        switch ($requete) {
-            case 0:
-                $query = $em->createQuery(
-                    'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-                    FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
-                    WHERE B.disponibilite = true
-                    AND B.quartier = Q.id
-                    AND Q.ville = V.id
-                    AND B.typeBien = TB.id
-                    AND I.idBien = B.id'
-                );
-
-                return $query->execute();
-            break;
-
-            case 1:
-                $query = $em->createQuery(
-                    'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-                    FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
-                    WHERE B.disponibilite = true
-                    AND B.typeBien = :typeBien
-                    AND B.quartier IN (SELECT Qua.id FROM SNT\ReservationBundle\Entity\quartier Qua WHERE Qua.ville IN (SELECT Vil.id FROM SNT\ReservationBundle\Entity\ville Vil WHERE Vil.id = :lieu))
-                    AND B.prixLoc BETWEEN :prixMin AND :prixMax
-                    AND B.quartier = Q.id
-                    AND Q.ville = V.id
-                    AND B.typeBien = TB.id
-                    AND I.idBien = B.id'
-                )->setParameters(array('prixMax' => $prixMax, 'prixMin' => $prixMin, 'lieu' => $lieu, 'typeBien' => $typeBien));
-
-                return $query->execute();
-            break;
-
-            case 2:
-                $query = $em->createQuery(
-                    'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-                    FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
-                    WHERE B.disponibilite = true
-                    AND B.quartier IN (SELECT Qua.id FROM SNT\ReservationBundle\Entity\quartier Qua WHERE Qua.ville IN (SELECT Vil.id FROM SNT\ReservationBundle\Entity\ville Vil WHERE Vil.id = :lieu))
-                    AND B.prixLoc BETWEEN :prixMin AND :prixMax
-                    AND B.quartier = Q.id
-                    AND Q.ville = V.id
-                    AND B.typeBien = TB.id
-                    AND I.idBien = B.id'
-                )->setParameters(array('prixMax' => $prixMax, 'prixMin' => $prixMin, 'lieu' => $lieu));
-
-                return $query->execute();
-            break;
-
-            case 3:
-                $query = $em->createQuery(
-                    'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-                    FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
-                    WHERE B.disponibilite = true
-                    AND B.typeBien = :typeBien
-                    AND B.prixLoc BETWEEN :prixMin AND :prixMax
-                    AND B.quartier = Q.id
-                    AND Q.ville = V.id
-                    AND B.typeBien = TB.id
-                    AND I.idBien = B.id'
-                )->setParameters(array('prixMax' => $prixMax, 'prixMin' => $prixMin, 'typeBien' => $typeBien));
-
-                return $query->execute();
-            break;
-
-            case 4:
-                $query = $em->createQuery(
-                    'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-                    FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
-                    WHERE B.disponibilite = true
-                    AND B.prixLoc BETWEEN :prixMin AND :prixMax
-                    AND B.quartier = Q.id
-                    AND Q.ville = V.id
-                    AND B.typeBien = TB.id
-                    AND I.idBien = B.id'
-                )->setParameters(array('prixMax' => $prixMax, 'prixMin' => $prixMin));
-
-                return $query->execute();
-            break;
-
-            default:
-                // code...
-                break;
+        if ($typeBien != null) {
+            $requete .= ' AND B.typeBien = :typeBien';
         }
 
-        /*
-            $query = $em->createQuery(
-                'SELECT B.id, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-                FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
-                WHERE B.disponibilite = true
-                AND B.typeBien = :typeBien
-                AND B.quartier IN (SELECT Qua.id FROM SNT\ReservationBundle\Entity\quartier Qua WHERE Qua.ville IN (SELECT Vil.id FROM SNT\ReservationBundle\Entity\ville Vil WHERE Vil.id = :lieu))
-                AND B.prixLoc BETWEEN :prixMin AND :prixMax
-                AND B.quartier = Q.id
-                AND Q.ville = V.id
-                AND B.typeBien = TB.id
-                AND I.idBien = B.id'
-            )->setParameters(array('prixMax' => $prixMax, 'prixMin' => $prixMin, 'lieu' => $lieu, 'typeBien' => $typeBien));
+        if ($prixMin != null && $prixMax != null) {
+            $requete .= ' AND B.prixLoc BETWEEN :prixMin AND :prixMax';
+        }
 
-            return $query->execute();
+        if ($meuble != null) {
+            $requete .= ' AND B.meuble = true';
+        }
 
-                \\\\\\\\\\\\\\\\\/*********************\//////////////////////
+        if ($balcon != null) {
+            $requete .= ' AND B.balcon = true';
+        }
 
-            $conn = $this->getEntityManager()->getConnection();
+        if ($parking != null) {
+            $requete .= ' AND B.parking = true';
+        }
 
-            $sql = 'SELECT `bien`.`id`, `nomBien`, `prixLoc`, `surface`, `nbreChambre`, `nbreEtage`, `nbreSalon`, `nbreSallebain`, `balcon`, `meuble`, `parking`, `description`, `adresse`, `nomTypeBien`, `nomQuartier`, `nomVille` FROM `bien`, `type_bien`, `quartier`, `ville` WHERE `bien`.`idTypeBien` = `type_bien`.`id` AND `bien`.`idQuartier` = `quartier`.`id` AND `quartier`.`idVille` = `ville`.`id` AND `bien`.`disponibilite` = true';
+        $query = $em->createQuery($requete);
 
-            $stmt = $conn->query($sql);
+        if ($lieu != null) {
+            $query->setParameter('lieu', $lieu);
+        }
+        if ($typeBien != null) {
+            $query->setParameter('typeBien', $typeBien);
+        }
+        if ($prixMin != null && $prixMax != null) {
+            $query->setParameter('prixMin', $prixMin)
+            ->setParameter('prixMax', $prixMax);
+        }
 
-            return $stmt->fetchAll();
-        */
+        return $query->execute();
     }
 
     public function findBienById($id): array
@@ -155,34 +77,4 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
 
         return $query->execute();
     }
-
-    /* public function findBiens($lieu = 0, $typeBien = 0, $prixMin = 0, $prixMax = 0)
-    {
-        $dql = "SELECT b, i FROM SNT\ReservationBundle\Entity\Bien b
-        left Join b.image i Join b.typeBien t Join b.quartier l WHERE b.disponibilite = true";
-        if ($idLocalite != 0) {
-            $dql .= ' AND l.id = :idLoc';
-        }
-        if ($idType != 0) {
-            $dql .= ' AND t.id = :idType';
-        }
-        if ($budget != 0) {
-            $dql .= ' AND b.prixLocation BETWEEN :prixMin AND :prixMax';
-        }
-
-        $query = $this->getEntityManager()->createQuery($dql);
-
-        if ($idLocalite != 0) {
-            $query->setParameter('idLoc', $idLocalite);
-        }
-        if ($idType != 0) {
-            $query->setParameter('idType', $idType);
-        }
-        if ($budget != 0) {
-            $query->setParameter('prixMin', $budget - 10000)
-            ->setParameter('prixMax', $budget + 20000);
-        }
-
-        return $query->getResult();
-    } */
 }
