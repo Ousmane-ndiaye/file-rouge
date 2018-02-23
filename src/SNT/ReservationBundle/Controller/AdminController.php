@@ -23,15 +23,16 @@ class AdminController extends Controller
     }
 
     /**
-     * @Route("/listebien")
+     * @Route("/test_ajax")
      */
     public function test_ajaxAction(Request $request)
     {
         $em = $this->getDoctrine()->getManager();
-        $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien(null, null, null, null);
+        if ($request->isMethod('POST')) {
+            extract($_POST);
+            $client = $em->getRepository('RESERVATIONBundle:client')->findClientLog($login, $password);
 
-        return $this->render('admin/listebien.html.twig', array(
-            'biens' => $biens,
-        ));
+            return $this->JsonResponse::create($client);
+        }
     }
 }

@@ -10,14 +10,15 @@ namespace SNT\ReservationBundle\Repository;
  */
 class clientRepository extends \Doctrine\ORM\EntityRepository
 {
-    public function findBienByLogin($login): array
+    public function findClientLog($login, $password): array
     {
         $em = $this->getEntityManager();
         $query = $em->createQuery(
             'SELECT C
             FROM SNT\ReservationBundle\Entity\Client C
-            WHERE B.login = :login'
-        )->setParameters(array('login' => $login));
+            WHERE B.login = :login
+            AND B.password = :password'
+        )->setParameters(array('login' => $login, 'password' => $password));
 
         return $query->execute();
     }

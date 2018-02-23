@@ -128,7 +128,7 @@ class ReservationController extends Controller
 
         if ($request->isMethod('POST') && $_POST['typeform'] == 'connexion') {
             extract($_POST);
-            $client = $em->getRepository('RESERVATIONBundle:client')->findByLogin($login);
+            $client = $em->getRepository('RESERVATIONBundle:client')->findClientLog($login, $password);
 
             $bien = $em->getRepository('RESERVATIONBundle:Bien')->find($idBien);
 

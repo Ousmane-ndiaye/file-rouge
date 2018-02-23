@@ -1,6 +1,6 @@
 $(document).ready(function() {
     function champObl(champs) {
-        if (champs.val() == "" || champs.val().length <= 2 || champs.val().trim() == "") {
+        if (champs.val() == "" || champs.val().length <= 2 || champs.val().trim().length <= 2) {
             return "Veuillez remplir le champ " + champs.data('champ');
         } else if (champs.data('champ') == "nom d'utilisateur" && !champs.val().match(/^[a-zA-Z0-9]+$/i)) {
             return "Veillez rentrer un nom d'utilisateur valide";
@@ -13,23 +13,33 @@ $(document).ready(function() {
         $(this).hide();
     });
 
-    $(".prix_compris").each(function() {
+    console.log('------------------------------------');
+    console.log($("#min-baths"));
+    console.log('------------------------------------');
+
+    $("#min-baths").on('click', function() {
         console.log('------------------------------------');
         console.log($(this).val());
         console.log('------------------------------------');
-        $(this).on("scroll", function() {
-            console.log('------------------------------------');
-            console.log($(this).val());
-            console.log('------------------------------------');
-        })
+    })
+
+    console.log('------------------------------------');
+    console.log($("#tablebien"));
+    console.log('------------------------------------');
+
+    $('#tablebien').on("click", function(event) {
+        event.preventDefault();
+        return false;
     })
 
     $("form").each(function() {
         var formType = $(this).data("form");
         var idAlert = formType;
         $(this).on("submit", function() {
+            alert("qssdsfdgfhg")
             $('#' + idAlert + ' ul').children("li").remove();
             valid = true;
+            var donnees = $(this).serialize();
             c = 0;
             $(this).children("div").each(function() {
                 $(this).children("input[type='text'], input[type='password'], input[type='number']").each(function() {
@@ -47,19 +57,21 @@ $(document).ready(function() {
                 valid = true;
             } else if (c == 2 && formType == "form_connexion") {
                 valid = false;
+                console.log('------------------------------------');
+                console.log(donnees);
+                console.log('------------------------------------');
                 $.ajax({
                     type: "POST",
                     url: "{{ path('test_ajax') }}",
                     dataType: "json",
-                    data: requette,
-                    success: function(reponseU) {
-                        //insertion des produits dans le panier
-                        let prixTotal = 0;
-                        prduit = "<tr id='" + reponseU.idProduit + "'><td> <input type='text' data- data-prix='" + reponseU.prix + "' data-champ='quantite' name='" + reponseU.nomProduit + "' id='" + reponseU.idProduit + "' placeholder='Veuillez saisir la quantité'/></td><td>" + reponseU.nomProduit + "</td><td>" + reponseU.prix + " f </td><td class='montantTT1prod' id='prixTTdes" + reponseU.nomProduit.replace(/ /g, "") + "'>" + prixTotal + " f</td></tr>";
-                        $('#facture').append(prduit);
+                    data: donnees,
+                    success: function(reponse) {
+                        console.log('------------------------------------');
+                        console.log(reponse);
+                        console.log('------------------------------------');
                     },
                     error: function() {
-                        console.log("requête pour 1 produit non executé !");
+                        console.log("requête non executé !");
                     }
                 })
             } else if (c == 2 && formType == "form_recuperation") {
