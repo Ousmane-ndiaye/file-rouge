@@ -150,14 +150,26 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
             }
 
-            // admin_listebien
-            if ('/soultana/admin/listebien' === $pathinfo) {
-                return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::listebienAction',  '_route' => 'admin_listebien',);
-            }
+            elseif (0 === strpos($pathinfo, '/soultana/admin')) {
+                // admin_index
+                if ('/soultana/admin' === $trimmedPathinfo) {
+                    if (substr($pathinfo, -1) !== '/') {
+                        return $this->redirect($pathinfo.'/', 'admin_index');
+                    }
 
-            // test_ajax
-            if ('/soultana/admin/test_ajax' === $pathinfo) {
-                return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::test_ajaxAction',  '_route' => 'test_ajax',);
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::indexAction',  '_route' => 'admin_index',);
+                }
+
+                // admin_listebien
+                if ('/soultana/admin/listebien' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::listebienAction',  '_route' => 'admin_listebien',);
+                }
+
+                // test_ajax
+                if ('/soultana/admin/test_ajax' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::test_ajaxAction',  '_route' => 'test_ajax',);
+                }
+
             }
 
         }

@@ -10,6 +10,15 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class AdminController extends Controller
 {
     /**
+     * @Route("/index")
+     */
+    public function indexAction(Request $request)
+    {
+        return $this->render('admin/index.html.twig', array(
+        ));
+    }
+
+    /**
      * @Route("/listebien")
      */
     public function listebienAction(Request $request)

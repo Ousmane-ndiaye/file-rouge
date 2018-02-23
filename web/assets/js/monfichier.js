@@ -36,7 +36,6 @@ $(document).ready(function() {
         var formType = $(this).data("form");
         var idAlert = formType;
         $(this).on("submit", function() {
-            alert("qssdsfdgfhg")
             $('#' + idAlert + ' ul').children("li").remove();
             valid = true;
             var donnees = $(this).serialize();
