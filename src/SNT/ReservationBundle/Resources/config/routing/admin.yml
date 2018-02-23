@@ -1,3 +1,8 @@
 admin_listebien:
   path:     /listebien
   defaults: { _controller: RESERVATIONBundle:Admin:listebien }
+
+
+test_ajax:
+  path:     /test_ajax
+  defaults: { _controller: RESERVATIONBundle:Admin:test_ajax }

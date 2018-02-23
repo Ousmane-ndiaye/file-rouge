@@ -15,11 +15,11 @@ $(document).ready(function() {
 
     $(".prix_compris").each(function() {
         console.log('------------------------------------');
-        console.log($(this));
+        console.log($(this).val());
         console.log('------------------------------------');
-        $(this).on("change", function() {
+        $(this).on("scroll", function() {
             console.log('------------------------------------');
-            console.log($(this));
+            console.log($(this).val());
             console.log('------------------------------------');
         })
     })
@@ -46,7 +46,22 @@ $(document).ready(function() {
             if (c == 7 && formType == "form_inscription") {
                 valid = true;
             } else if (c == 2 && formType == "form_connexion") {
-                valid = true;
+                valid = false;
+                $.ajax({
+                    type: "POST",
+                    url: "{{ path('test_ajax') }}",
+                    dataType: "json",
+                    data: requette,
+                    success: function(reponseU) {
+                        //insertion des produits dans le panier
+                        let prixTotal = 0;
+                        prduit = "<tr id='" + reponseU.idProduit + "'><td> <input type='text' data- data-prix='" + reponseU.prix + "' data-champ='quantite' name='" + reponseU.nomProduit + "' id='" + reponseU.idProduit + "' placeholder='Veuillez saisir la quantité'/></td><td>" + reponseU.nomProduit + "</td><td>" + reponseU.prix + " f </td><td class='montantTT1prod' id='prixTTdes" + reponseU.nomProduit.replace(/ /g, "") + "'>" + prixTotal + " f</td></tr>";
+                        $('#facture').append(prduit);
+                    },
+                    error: function() {
+                        console.log("requête pour 1 produit non executé !");
+                    }
+                })
             } else if (c == 2 && formType == "form_recuperation") {
                 valid = true;
             } else if (c < 4 && formType == "form_recherche") {

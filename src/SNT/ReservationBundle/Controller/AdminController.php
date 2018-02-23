@@ -21,4 +21,17 @@ class AdminController extends Controller
             'biens' => $biens,
         ));
     }
+
+    /**
+     * @Route("/listebien")
+     */
+    public function test_ajaxAction(Request $request)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien(null, null, null, null);
+
+        return $this->render('admin/listebien.html.twig', array(
+            'biens' => $biens,
+        ));
+    }
 }
