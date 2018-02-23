@@ -14,7 +14,7 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
     {
         $em = $this->getEntityManager();
         $requete = 'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-        FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
+        FROM RESERVATIONBundle:Bien B, RESERVATIONBundle:typeBien TB, RESERVATIONBundle:image I, RESERVATIONBundle:quartier Q, RESERVATIONBundle:ville V
         WHERE B.disponibilite = true
         AND B.quartier = Q.id
         AND Q.ville = V.id
@@ -22,7 +22,7 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
         AND I.idBien = B.id';
 
         if ($lieu != null) {
-            $requete .= ' AND B.quartier IN (SELECT Qua.id FROM SNT\ReservationBundle\Entity\quartier Qua WHERE Qua.ville IN (SELECT Vil.id FROM SNT\ReservationBundle\Entity\ville Vil WHERE Vil.id = :lieu))';
+            $requete .= ' AND B.quartier IN (SELECT Qua.id FROM RESERVATIONBundle:quartier Qua WHERE Qua.ville IN (SELECT Vil.id FROM RESERVATIONBundle:ville Vil WHERE Vil.id = :lieu))';
         }
 
         if ($typeBien != null) {
@@ -50,23 +50,29 @@ class BienRepository extends \Doctrine\ORM\EntityRepository
         if ($lieu != null) {
             $query->setParameter('lieu', $lieu);
         }
+
         if ($typeBien != null) {
             $query->setParameter('typeBien', $typeBien);
         }
+
         if ($prixMin != null && $prixMax != null) {
-            $query->setParameter('prixMin', $prixMin)
-            ->setParameter('prixMax', $prixMax);
+            $query->setParameter('prixMin', $prixMin)->setParameter('prixMax', $prixMax);
         }
 
-        return $query->execute();
+        $resultat = $query->execute();
+
+        if ($resultat == '') {
+        } else {
+            return $resultat;
+        }
     }
 
     public function findBienById($id): array
     {
         $em = $this->getEntityManager();
         $query = $em->createQuery(
-            'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
-            FROM SNT\ReservationBundle\Entity\Bien B, SNT\ReservationBundle\Entity\typeBien TB, SNT\ReservationBundle\Entity\image I, SNT\ReservationBundle\Entity\quartier Q, SNT\ReservationBundle\Entity\ville V
+            $requete = 'SELECT B.id, B.nomBien, B.balcon, B.meuble, B.adresse, B.prixLoc, B.surface, B.nbreChambre, B.nbreEtage, B.nbreSalon, B.nbreSallebain,B.description, B.parking, I.chemin, TB.nomTypeBien, Q.nomQuartier, V.nomVille
+            FROM RESERVATIONBundle:Bien B, RESERVATIONBundle:typeBien TB, RESERVATIONBundle:image I, RESERVATIONBundle:quartier Q, RESERVATIONBundle:ville V
             WHERE B.disponibilite = true
             AND B.id = :id
             AND B.quartier = Q.id

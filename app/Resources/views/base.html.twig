@@ -83,7 +83,7 @@
                 </div>
                 <ul class="main-nav nav navbar-nav navbar-right">
                     <li class="ymm-sw " data-wow-delay="0.1s">
-                        <a href="index.html" class="active">Accueil</a>
+                        <a href="" class="active">Accueil</a>
                     </li>
 
                     <li class="wow fadeInDown" data-wow-delay="0.2s">
@@ -124,15 +124,16 @@
                     <p class="notre_devise" style="font-size: 18px; text-shadow:#FDC600 1px 1px, #FDC600 -1px 1px, #FDC600 -1px -1px, #FDC600 1px -1px;">Leader dans ce domaine, la satisfaction de nos visiteurs fait notre bonheur !</p>
                     {% block form_recherche %}
                     <div class="search-form wow pulse changements" data-wow-delay="0.8s">
-                        <form action="" method="post" class="form-inline">
+                        <form action="" method="post" data-form="form_recherche" class="form-inline">
                             <input type="hidden" class="form-control" name="form_type" aria-describedby="helpId" value="rechercher">
                             <button class="btn  toggle-btn" type="button">
                                 <i class="fa fa-bars"></i>
                             </button>
                             <div class="form-group">
+                                {# <input type="text" name="lieu" id="lieu" class="" placeholder="Saisir une localité"/> #}
                                 <select name="lieu" id="lunchBegins" class="selectpicker inputForm" data-live-search="true" data-live-search-style="begins" title="Choisir une localité">
                                 {% for ville in villes %}
-                                    <option> {{ ville.nomVille }} </option>
+                                    <option value="{{ ville.id }}"> {{ ville.nomVille }} </option>
                                 {% endfor %}
                                 </select>
                             </div>
@@ -144,7 +145,7 @@
                                 </select>
                             </div>
                             <div class="form-group mar-r-20">
-                                {# <input type="text" name="prix_choisi" id="prix_choisi" class="filter-option" placeholder="Votre budget" /> #}
+                                <input type="text" name="prix_choisi" id="prix_choisi" class="filter-option" placeholder="" readonly="true" />
                                 <input type="text" name="prix" class="span2 prix_compris" data-slider-min="50" data-slider-max="5000" data-slider-step="5" data-slider-value="[50,5000]" value="50,5000" id="price-range"><br/>
                                 <b class="pull-left color numero">50 000f</b>
                                 <b class="pull-right color numero">500 000 000f</b>
@@ -225,8 +226,7 @@
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                     <!-- /.feature title -->
                     <h2>Top des propriétés soumises</h2>
-                    <p>Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies .
-                    </p>
+                    <p>Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies .</p>
                 </div>
             </div>
             {% endblock %}
@@ -241,13 +241,11 @@
                             </div>
                             <div class="item-entry overflow">
                                 <h5>
-                                    <a href="{{path('reservation_approuver',{'idBien':bien.id})}}s">Superbe {{ bien.nomTypeBien }}
-                                    </a>
+                                    <a href="{{path('reservation_approuver',{'idBien':bien.id})}}s">Superbe {{ bien.nomTypeBien }}</a>
                                 </h5>
                                 <div class="dot-hr"></div>
                                 <span class="pull-left">
-                                    <b>Surface :</b>
-                                    {{ bien.surface }}
+                                    <b>Surface : </b>{{ bien.surface }}
                                 </span>
                                 <span class="proerty-price pull-right">{{ bien.prixLoc }} f</span>
                             </div>
@@ -261,8 +259,7 @@
                             </div>
                             <div class="more-entry overflow">
                                 <h5>
-                                    <a href="property-1.html">DU MAL À DECIDER ?
-                                    </a>
+                                    <a href="property-1.html">DU MAL À DECIDER ?</a>
                                 </h5>
                                 <h5 class="tree-sub-ttl">Voir toutes les propriétés</h5>
                                 <a href="" ><button class="btn border-btn more-black" value="All properties">Toutes les propriétés</button></a>
@@ -286,8 +283,7 @@
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                                     <!-- /.feature title -->
-                                    <h2>SOUL TANA
-                                    </h2>
+                                    <h2>SOUL TANA</h2>
                                 </div>
                             </div>
                         </div>
@@ -329,8 +325,7 @@
                                         <div class="welcome-icon">
                                             <i class="pe-7s-help2 pe-4x"></i>
                                         </div>
-                                        <h3>Any help
-                                        </h3>
+                                        <h3>Any help</h3>
                                     </div>
                                 </div>
 
@@ -349,8 +344,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                     <!-- /.feature title -->
-                    <h2>Nos Clients ont dit
-                    </h2>
+                    <h2>Nos Clients ont dit</h2>
                 </div>
             </div>
 
@@ -362,8 +356,7 @@
                                 <div class="client-text">
                                     <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
                                     <h4>
-                                        <strong>Ohidul Islam,
-                                        </strong>
+                                        <strong>Ohidul Islam,</strong>
                                         <i>Web Designer</i>
                                     </h4>
                                 </div>
@@ -375,8 +368,7 @@
                                 <div class="client-text">
                                     <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
                                     <h4>
-                                        <strong>Ohidul Islam,
-                                        </strong>
+                                        <strong>Ohidul Islam,</strong>
                                         <i>Web Designer</i>
                                     </h4>
                                 </div>

@@ -17,6 +17,7 @@ class ReservationController extends Controller
     public function indexAction(Request $request)
     {
         $em = $this->getDoctrine()->getManager();
+
         $villes = $em->getRepository('RESERVATIONBundle:ville')->findAll();
         $typesBien = $em->getRepository('RESERVATIONBundle:typeBien')->findAll();
         $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBien('', '', '', '');
@@ -95,20 +96,20 @@ class ReservationController extends Controller
             ));
         }
 
-        if ($request->isMethod('POST') && $_POST['typeform'] == 'inscription') {
+        if ($request->isMethod('POST') && $_POST['typeformInscrit'] == 'inscription') {
             extract($_POST);
             $new_client = new client();
-            $new_client->setNomClient($nomClient);
-            $new_client->setNumCni($numCni);
-            $new_client->setAdresse($adresse);
-            $new_client->setTelephone($telephone);
-            $new_client->setEmail($email);
-            $new_client->setLogin($login);
-            $new_client->setPassword($password);
+            $new_client->setNomClient($nomClientInscrit);
+            $new_client->setNumCni($numCniInscrit);
+            $new_client->setAdresse($adresseInscrit);
+            $new_client->setTelephone($telephoneInscrit);
+            $new_client->setEmail($emailInscrit);
+            $new_client->setLogin($loginInscrit);
+            $new_client->setPassword($passwordInscrit);
             $em->persist($new_client);
             $em->flush();
 
-            $bien = $em->getRepository('RESERVATIONBundle:Bien')->find($idBien);
+            $bien = $em->getRepository('RESERVATIONBundle:Bien')->find($idBienInscrit);
 
             $new_reservation = new reservation();
             $new_reservation->setDate(new \DateTime('now'));
@@ -118,7 +119,7 @@ class ReservationController extends Controller
             $em->persist($new_reservation);
             $em->flush();
 
-            $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBienById($idBien);
+            $biens = $em->getRepository('RESERVATIONBundle:Bien')->findBienById($idBienInscrit);
 
             return $this->render('reservation/approuver.html.twig', array(
                 'biens' => $biens,
