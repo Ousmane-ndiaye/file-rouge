@@ -1,0 +1,36 @@
+#photo-profil {
+    border: 1.5px solid #30a5ff;
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0;
+}
+
+#photo-profil img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#utilisateur {
+    position: absolute;
+    left: 75px;
+    top: 25px;
+}
+
+#liste_reservation thead {
+    background: #30a5ff;
+    color: white;
+}
+
+#liste_reservation tr {
+    border: 1px solid #30a5ff;
+}
+
+#liste_reservation td {
+    border-left: 1px solid #30a5ff;
+    border-right: 1px solid #30a5ff;
+    border-bottom: 1px solid #30a5ff;
+}

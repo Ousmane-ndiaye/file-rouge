@@ -19,6 +19,24 @@ class AdminController extends Controller
     }
 
     /**
+     * @Route("/accueil")
+     */
+    public function accueilAction(Request $request)
+    {
+        return $this->render('admin/accueil.html.twig', array(
+        ));
+    }
+
+    /**
+     * @Route("/reservation")
+     */
+    public function reservationAction(Request $request)
+    {
+        return $this->render('admin/reservation.html.twig', array(
+        ));
+    }
+
+    /**
      * @Route("/listebien")
      */
     public function listebienAction(Request $request)

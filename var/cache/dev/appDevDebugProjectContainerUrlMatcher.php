@@ -160,6 +160,16 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                     return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::indexAction',  '_route' => 'admin_index',);
                 }
 
+                // admin_accueil
+                if ('/soultana/admin/accueil' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::accueilAction',  '_route' => 'admin_accueil',);
+                }
+
+                // admin_reservation
+                if ('/soultana/admin/reservation' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::reservationAction',  '_route' => 'admin_reservation',);
+                }
+
                 // admin_listebien
                 if ('/soultana/admin/listebien' === $pathinfo) {
                     return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::listebienAction',  '_route' => 'admin_listebien',);
