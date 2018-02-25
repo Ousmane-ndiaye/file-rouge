@@ -12,126 +12,184 @@
     <div class="row" id="charge_contrat">
         <div class="col-md-12">
             <div class="panel panel-default dark-overlay">
-                <div class="panel-heading">Finalisation du demande de réservation faites par {{ reservation[0].nomClient }}
-                    <span class="pull-right clickable panel-toggle  panel-button-tab-left"><em class="fa fa-toggle-up"></em></span>
+                <div class="panel-heading">
+                    Finalisation du demande de réservation faites par {{ reservation[0].nomClient }}
                 </div>
                 <div class="panel-body row">
                     <div class="col-md-12">
-                        <div class="panel panel-primary panel-body">
-                            <p>
-                                {{ reservation[0].description }}
-                            </p>
+                        <div class="panel panel-primary panel-body row">
+                            <div class="col-md-12">
+                                <div class="panel panel-blue">
+                                    <div class="panel-heading dark-overlay">
+                                        Détail du bien
+                                    </div>
+                                    <div class="panel-body row">
+                                        <ul class="col-md-4 ul_detail">
+                                            <li>
+                                                <span class="droite"> nom  </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> adresse </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> localité </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> type </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> proprietaire </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> montant </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> caution </span> :
+                                            </li>
+                                        </ul>
+                                        <ul class="col-md-8 ul_detail">
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].nomBien }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].adresse }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].nomVille ~", "~reservation[0].nomQuartier }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].nomTypeBien }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].nomComplet }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].prixLoc}} fcfa </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> 50000 fcfa </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.col-->
+                            <div class="col-md-12">
+                                <div class="panel panel-blue">
+                                    <div class="panel-heading dark-overlay">
+                                        Détail du client
+                                    </div>
+                                    <div class="panel-body row">
+                                        <ul class="col-md-4 ul_detail">
+                                            <li>
+                                                <span class="droite"> prénom & nom  </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> Numéro cni </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> adresse </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> e-mail </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> téléphone </span> :
+                                            </li>
+                                        </ul>
+                                        <ul class="col-md-8 ul_detail">
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].nomClient }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].Client_cni }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].Client_adresse }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].Client_email }} </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].Client_telephone }} </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.col-->
+                            <div class="col-md-12">
+                                <div class="panel panel-blue">
+                                    <div class="panel-heading dark-overlay">
+                                        Formalité du contrat
+                                    </div>
+                                    <div class="panel-body row">
+                                        <ul class="col-md-4 ul_detail">
+                                            <li>
+                                                <span class="droite"> Mensualité  </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> Caution </span> :
+                                            </li>
+                                            <li>
+                                                <span class="droite"> Total </span> :
+                                            </li>
+                                            <li>
+                                                <form method="POST" class="form-group">
+                                                    <div class="checkbox">
+                                                        <label style="font-weight: bold;">
+                                                            <input type="checkbox" id="contrat_renouvable" value="contrat de 1 an renouvelable"> Contrat de 1 an renouvelable
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                        <ul class="col-md-8 ul_detail">
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].prixLoc }} fcfa </span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> 50000 fcfa</span>
+                                            </li>
+                                            <li>
+                                                <span class="faux_droite"> {{ reservation[0].prixLoc + 50000 }} fcfa </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.col-->
+                            <div class="col-md-12">
+                                <div class="panel panel-blue">
+                                    <div class="panel-heading dark-overlay">
+                                        Terme du contrat
+                                    </div>
+                                    <div class="panel-body row">
+                                        <div class="col-md-12">
+                                            <form method="POST" class="form-group">
+                                                <div class="form-group">
+                                                    <label>Text area</label>
+                                                    <textarea class="form-control" rows="5"></textarea>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label style="font-weight: bold;">
+                                                        <input type="checkbox" name="soumContrat" id="soumContrat" value="accepter"> Accepter
+                                                    </label>
+                                                    <label style="font-weight: bold;">
+                                                        <input type="checkbox" name="soumContrat" id="soumContrat" value="refuser"> Refuser
+                                                    </label>
+                                                </div>
+                                                <button style="color: #1a2b3c;" type="submit" class="btn btn-sucess">Enregistrer</button>
+                                            </form>
+                                        </div>
+                                    </di>
+                                </div>
+                            </div>
+                            <!--/.col-->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--/.col-->
-        <div class="col-md-6">
-            <div class="panel panel-blue">
-                <div class="panel-heading dark-overlay">Détails du bien
-                    <span class="pull-right clickable panel-toggle"><em class="fa fa-toggle-up"></em></span>
-                </div>
-                <div class="panel-body row">
-                    <ul class="col-md-4 ul_detail">
-                        <li>
-                            <span class="droite"> nom  </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> adresse </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> localité </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> type </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> proprietaire </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> montant location </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> caution </span> :
-                        </li>
-                    </ul>
-                    <ul class="col-md-8 ul_detail">
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].nomBien }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].adresse }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].nomVille ~", "~reservation[0].nomQuartier }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].nomTypeBien }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].nomComplet }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].prixLoc}} fcfa </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> 50000 fcfa </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--/.col-->
-        <div class="col-md-6">
-            <div class="panel panel-blue">
-                <div class="panel-heading dark-overlay">Détails du client
-                    <span class="pull-right clickable panel-toggle"><em class="fa fa-toggle-up"></em></span>
-                </div>
-                <div class="panel-body row">
-                    <ul class="col-md-4 ul_detail">
-                        <li>
-                            <span class="droite"> prénom & nom  </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> Numéro cni </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> adresse </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> e-mail </span> :
-                        </li>
-                        <li>
-                            <span class="droite"> téléphone </span> :
-                        </li>
-                    </ul>
-                    <ul class="col-md-8 ul_detail">
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].nomClient }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].Client_cni }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].Client_adresse }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].Client_email }} </span>
-                        </li>
-                        <li>
-                            <span class="faux_droite"> {{ reservation[0].Client_telephone }} </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row col-sm-12">
-            <span class="col-sm-3">&nbsp;</span>
-            <a class="btn btn-lg btn-primary col-sm-2" id="btn_annuler_reserve">Annuler</a>
-            <span class="col-sm-2">&nbsp;</span>
-            <a class="btn btn-lg btn-primary col-sm-2" id="btn_valider_reserve" data-idreservation="{{ reservation[0].Reservation_id }}" data-idbien="{{ reservation[0].Bien_id }}" data-idclient="{{ reservation[0].Client_id }}">Valider</a>
-            <span class="col-sm-3">&nbsp;</span>
         </div>
         <div class="col-sm-12">
             &nbsp;
