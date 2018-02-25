@@ -20,17 +20,43 @@
     top: 25px;
 }
 
-#liste_reservation thead {
+#th_1 {
     background: #30a5ff;
     color: white;
+}
+
+td,
+th {
+    text-transform: uppercase;
 }
 
 #liste_reservation tr {
     border: 1px solid #30a5ff;
 }
 
+#liste_reservation th {
+    text-align: center;
+    font-size: 12px;
+}
+
+#th_2 td {
+    text-align: center;
+    color: #1a2b3c;
+    font-size: 12px;
+    border: 1px solid #30a5ff;
+    font-weight: bold;
+}
+
 #liste_reservation td {
     border-left: 1px solid #30a5ff;
     border-right: 1px solid #30a5ff;
     border-bottom: 1px solid #30a5ff;
+    font-size: 12px;
+}
+
+.bien_photo img {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 100px;
 }

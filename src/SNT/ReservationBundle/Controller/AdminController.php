@@ -32,7 +32,11 @@ class AdminController extends Controller
      */
     public function reservationAction(Request $request)
     {
+        $em = $this->getDoctrine()->getManager();
+        $reservations = $em->getRepository('RESERVATIONBundle:reservation')->findReservation(null, null, null);
+
         return $this->render('admin/reservation.html.twig', array(
+            'reservations' => $reservations,
         ));
     }
 
