@@ -123,6 +123,7 @@
   '::base1.html.twig' => __DIR__.'/../../../app/Resources/views/base1.html.twig',
   ':admin:index.html.twig' => __DIR__.'/../../../app/Resources/views/admin/index.html.twig',
   ':admin:listebien.html.twig' => __DIR__.'/../../../app/Resources/views/admin/listebien.html.twig',
+  ':admin:detail.html.twig' => __DIR__.'/../../../app/Resources/views/admin/detail.html.twig',
   ':admin:reservation.html.twig' => __DIR__.'/../../../app/Resources/views/admin/reservation.html.twig',
   ':admin:accueil.html.twig' => __DIR__.'/../../../app/Resources/views/admin/accueil.html.twig',
   ':reservation:index.html.twig' => __DIR__.'/../../../app/Resources/views/reservation/index.html.twig',

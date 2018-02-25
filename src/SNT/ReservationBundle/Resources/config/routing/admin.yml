@@ -12,11 +12,16 @@ admin_reservation:
   defaults: { _controller: RESERVATIONBundle:Admin:reservation }
 
 
-admin_listebien:
-  path:     /listebien
-  defaults: { _controller: RESERVATIONBundle:Admin:listebien }
+admin_detail_reservation:
+  path:     /detail
+  defaults: { _controller: RESERVATIONBundle:Admin:detail }
 
 
-test_ajax:
-  path:     /test_ajax
-  defaults: { _controller: RESERVATIONBundle:Admin:test_ajax }
+admin_contrat:
+  path:     /contrat
+  defaults: { _controller: RESERVATIONBundle:Admin:contrat }
+
+
+requete_ajax:
+  path:     /requete_ajax
+  defaults: { _controller: RESERVATIONBundle:Admin:requete_ajax }

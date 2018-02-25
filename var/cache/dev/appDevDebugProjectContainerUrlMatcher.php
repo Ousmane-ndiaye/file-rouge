@@ -170,14 +170,19 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                     return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::reservationAction',  '_route' => 'admin_reservation',);
                 }
 
-                // admin_listebien
-                if ('/soultana/admin/listebien' === $pathinfo) {
-                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::listebienAction',  '_route' => 'admin_listebien',);
+                // requete_ajax
+                if ('/soultana/admin/requete_ajax' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::requete_ajaxAction',  '_route' => 'requete_ajax',);
                 }
 
-                // test_ajax
-                if ('/soultana/admin/test_ajax' === $pathinfo) {
-                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::test_ajaxAction',  '_route' => 'test_ajax',);
+                // admin_detail_reservation
+                if ('/soultana/admin/detail' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::detailAction',  '_route' => 'admin_detail_reservation',);
+                }
+
+                // admin_contrat
+                if ('/soultana/admin/contrat' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::contratAction',  '_route' => 'admin_contrat',);
                 }
 
             }

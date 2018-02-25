@@ -57,6 +57,20 @@ th {
 .bien_photo img {
     margin: 0;
     padding: 0;
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 60px;
+}
+
+.ul_detail {
+    list-style-type: none;
+}
+
+.ul_detail li {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ul_detail li span.faux_droite {
+    color: #1a2b3c;
 }

@@ -27,11 +27,11 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8648cfa668287969e45cc0dd32e9819173baf529303580586c6b972e67550377 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8648cfa668287969e45cc0dd32e9819173baf529303580586c6b972e67550377->enter($__internal_8648cfa668287969e45cc0dd32e9819173baf529303580586c6b972e67550377_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base1.html.twig"));
+        $__internal_0eec1e539e8e53a8838d0961cac493a1eb18cea6d2af5742d8ba8e2ddfa23d35 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_0eec1e539e8e53a8838d0961cac493a1eb18cea6d2af5742d8ba8e2ddfa23d35->enter($__internal_0eec1e539e8e53a8838d0961cac493a1eb18cea6d2af5742d8ba8e2ddfa23d35_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base1.html.twig"));
 
-        $__internal_801e167925c4a9517f309b579efe662be6b27ac119814ebe390869b3f25c487e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_801e167925c4a9517f309b579efe662be6b27ac119814ebe390869b3f25c487e->enter($__internal_801e167925c4a9517f309b579efe662be6b27ac119814ebe390869b3f25c487e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base1.html.twig"));
+        $__internal_212ba5552846690392b735ec4772222372b581087e57dd59e166f55f0ea28f10 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_212ba5552846690392b735ec4772222372b581087e57dd59e166f55f0ea28f10->enter($__internal_212ba5552846690392b735ec4772222372b581087e57dd59e166f55f0ea28f10_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base1.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -46,58 +46,58 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
         // line 10
         echo "    ";
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 27
+        // line 28
         echo "</head>
 
 <body>
 ";
-        // line 30
+        // line 31
         $this->displayBlock('body', $context, $blocks);
-        // line 588
+        // line 589
         echo "<!--/.body-->
 ";
-        // line 589
+        // line 590
         $this->displayBlock('scripts', $context, $blocks);
-        // line 611
+        // line 612
         echo "</body>
 
 </html>";
         
-        $__internal_8648cfa668287969e45cc0dd32e9819173baf529303580586c6b972e67550377->leave($__internal_8648cfa668287969e45cc0dd32e9819173baf529303580586c6b972e67550377_prof);
+        $__internal_0eec1e539e8e53a8838d0961cac493a1eb18cea6d2af5742d8ba8e2ddfa23d35->leave($__internal_0eec1e539e8e53a8838d0961cac493a1eb18cea6d2af5742d8ba8e2ddfa23d35_prof);
 
         
-        $__internal_801e167925c4a9517f309b579efe662be6b27ac119814ebe390869b3f25c487e->leave($__internal_801e167925c4a9517f309b579efe662be6b27ac119814ebe390869b3f25c487e_prof);
+        $__internal_212ba5552846690392b735ec4772222372b581087e57dd59e166f55f0ea28f10->leave($__internal_212ba5552846690392b735ec4772222372b581087e57dd59e166f55f0ea28f10_prof);
 
     }
 
     // line 7
     public function block_title($context, array $blocks = array())
     {
-        $__internal_a8e7bbcb1da4bf76a893c55626214df20368874058feb49ad3f60745aab754c9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a8e7bbcb1da4bf76a893c55626214df20368874058feb49ad3f60745aab754c9->enter($__internal_a8e7bbcb1da4bf76a893c55626214df20368874058feb49ad3f60745aab754c9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_9bd730d370411e9a94b6e1346be9afb16e9325f03634b99a51670a78d01dc311 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_9bd730d370411e9a94b6e1346be9afb16e9325f03634b99a51670a78d01dc311->enter($__internal_9bd730d370411e9a94b6e1346be9afb16e9325f03634b99a51670a78d01dc311_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_fad859e2ea6764438ee49a6f37cc44484891887744089d8800856f7b136ebff0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fad859e2ea6764438ee49a6f37cc44484891887744089d8800856f7b136ebff0->enter($__internal_fad859e2ea6764438ee49a6f37cc44484891887744089d8800856f7b136ebff0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_06dbc5131a116a80579894957be9160946659582540ee54e22f5afe7d35b9ab3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_06dbc5131a116a80579894957be9160946659582540ee54e22f5afe7d35b9ab3->enter($__internal_06dbc5131a116a80579894957be9160946659582540ee54e22f5afe7d35b9ab3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         // line 8
         echo "    <title>Soultana - Dashboard</title>
     ";
         
-        $__internal_fad859e2ea6764438ee49a6f37cc44484891887744089d8800856f7b136ebff0->leave($__internal_fad859e2ea6764438ee49a6f37cc44484891887744089d8800856f7b136ebff0_prof);
+        $__internal_06dbc5131a116a80579894957be9160946659582540ee54e22f5afe7d35b9ab3->leave($__internal_06dbc5131a116a80579894957be9160946659582540ee54e22f5afe7d35b9ab3_prof);
 
         
-        $__internal_a8e7bbcb1da4bf76a893c55626214df20368874058feb49ad3f60745aab754c9->leave($__internal_a8e7bbcb1da4bf76a893c55626214df20368874058feb49ad3f60745aab754c9_prof);
+        $__internal_9bd730d370411e9a94b6e1346be9afb16e9325f03634b99a51670a78d01dc311->leave($__internal_9bd730d370411e9a94b6e1346be9afb16e9325f03634b99a51670a78d01dc311_prof);
 
     }
 
     // line 10
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_3307fffdb6e422ddc9085d10300a4e00a169cba835cb4bbc5570ffce2baafb8c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3307fffdb6e422ddc9085d10300a4e00a169cba835cb4bbc5570ffce2baafb8c->enter($__internal_3307fffdb6e422ddc9085d10300a4e00a169cba835cb4bbc5570ffce2baafb8c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_26d9ae05a165bd714d15aada797e207de4913b20bf90d426bbe4b47c100e5a86 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_26d9ae05a165bd714d15aada797e207de4913b20bf90d426bbe4b47c100e5a86->enter($__internal_26d9ae05a165bd714d15aada797e207de4913b20bf90d426bbe4b47c100e5a86_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_578f492f24900a04033fce7af899a4ad08f48d57d13e35c0efec3413cbcf126f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_578f492f24900a04033fce7af899a4ad08f48d57d13e35c0efec3413cbcf126f->enter($__internal_578f492f24900a04033fce7af899a4ad08f48d57d13e35c0efec3413cbcf126f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_46c9ed167bfc541374fb00b3fe80dbe135989aaaeba8211d5e1f30e1ba1a3c94 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_46c9ed167bfc541374fb00b3fe80dbe135989aaaeba8211d5e1f30e1ba1a3c94->enter($__internal_46c9ed167bfc541374fb00b3fe80dbe135989aaaeba8211d5e1f30e1ba1a3c94_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 11
         echo "    <link href=\"";
@@ -113,16 +113,20 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
         echo "\" rel=\"stylesheet\">
     <link href=\"";
         // line 14
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/css/styles.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/css/monstyle.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
     <link href=\"";
         // line 15
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/css/monstyle.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/css/styles.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+    <link href=\"";
+        // line 16
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/css/styles.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
     ";
-        // line 18
-        echo "    ";
         // line 19
+        echo "    ";
+        // line 20
         echo "
     <!--Custom Font-->
     <link href=\"https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i\" rel=\"stylesheet\">
@@ -132,37 +136,37 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
     <![endif]-->
     ";
         
-        $__internal_578f492f24900a04033fce7af899a4ad08f48d57d13e35c0efec3413cbcf126f->leave($__internal_578f492f24900a04033fce7af899a4ad08f48d57d13e35c0efec3413cbcf126f_prof);
+        $__internal_46c9ed167bfc541374fb00b3fe80dbe135989aaaeba8211d5e1f30e1ba1a3c94->leave($__internal_46c9ed167bfc541374fb00b3fe80dbe135989aaaeba8211d5e1f30e1ba1a3c94_prof);
 
         
-        $__internal_3307fffdb6e422ddc9085d10300a4e00a169cba835cb4bbc5570ffce2baafb8c->leave($__internal_3307fffdb6e422ddc9085d10300a4e00a169cba835cb4bbc5570ffce2baafb8c_prof);
+        $__internal_26d9ae05a165bd714d15aada797e207de4913b20bf90d426bbe4b47c100e5a86->leave($__internal_26d9ae05a165bd714d15aada797e207de4913b20bf90d426bbe4b47c100e5a86_prof);
 
     }
 
-    // line 30
+    // line 31
     public function block_body($context, array $blocks = array())
     {
-        $__internal_9ad06cac2b908ad8ae5cbc472e681266abb2873515883d8d4257b4b2685967f4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9ad06cac2b908ad8ae5cbc472e681266abb2873515883d8d4257b4b2685967f4->enter($__internal_9ad06cac2b908ad8ae5cbc472e681266abb2873515883d8d4257b4b2685967f4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_0dda6cad750baed7d6bf807c57e62993fa95e152a15ec0354959fe8ecc169945 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_0dda6cad750baed7d6bf807c57e62993fa95e152a15ec0354959fe8ecc169945->enter($__internal_0dda6cad750baed7d6bf807c57e62993fa95e152a15ec0354959fe8ecc169945_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_ef2c07d23a8cae255a32371f44cd131a5cbed3195a81739ebc387ef027a3e24a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ef2c07d23a8cae255a32371f44cd131a5cbed3195a81739ebc387ef027a3e24a->enter($__internal_ef2c07d23a8cae255a32371f44cd131a5cbed3195a81739ebc387ef027a3e24a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_6eebf7a1ac866c96911d486205c62b2ecee70d60f02df7cfe8d289d6f5e9fb27 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6eebf7a1ac866c96911d486205c62b2ecee70d60f02df7cfe8d289d6f5e9fb27->enter($__internal_6eebf7a1ac866c96911d486205c62b2ecee70d60f02df7cfe8d289d6f5e9fb27_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 31
+        // line 32
         echo "    ";
         $this->displayBlock('header', $context, $blocks);
-        // line 112
+        // line 113
         echo "
 
     ";
-        // line 114
+        // line 115
         $this->displayBlock('slidebar', $context, $blocks);
-        // line 165
+        // line 166
         echo "    <div class=\"col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main\">
     ";
-        // line 166
+        // line 167
         $this->displayBlock('main', $context, $blocks);
-        // line 582
+        // line 583
         echo "    <div class=\"col-sm-12\">
         <p class=\"back-link\">Lumino Theme by <a href=\"https://www.medialoot.com\">Medialoot</a></p>
     </div>
@@ -170,23 +174,23 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
     <!--/.main-->
 ";
         
-        $__internal_ef2c07d23a8cae255a32371f44cd131a5cbed3195a81739ebc387ef027a3e24a->leave($__internal_ef2c07d23a8cae255a32371f44cd131a5cbed3195a81739ebc387ef027a3e24a_prof);
+        $__internal_6eebf7a1ac866c96911d486205c62b2ecee70d60f02df7cfe8d289d6f5e9fb27->leave($__internal_6eebf7a1ac866c96911d486205c62b2ecee70d60f02df7cfe8d289d6f5e9fb27_prof);
 
         
-        $__internal_9ad06cac2b908ad8ae5cbc472e681266abb2873515883d8d4257b4b2685967f4->leave($__internal_9ad06cac2b908ad8ae5cbc472e681266abb2873515883d8d4257b4b2685967f4_prof);
+        $__internal_0dda6cad750baed7d6bf807c57e62993fa95e152a15ec0354959fe8ecc169945->leave($__internal_0dda6cad750baed7d6bf807c57e62993fa95e152a15ec0354959fe8ecc169945_prof);
 
     }
 
-    // line 31
+    // line 32
     public function block_header($context, array $blocks = array())
     {
-        $__internal_d1d790d1228d918dcec18938c77b84c69bcfb1e53050e97a65365a38936194ef = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d1d790d1228d918dcec18938c77b84c69bcfb1e53050e97a65365a38936194ef->enter($__internal_d1d790d1228d918dcec18938c77b84c69bcfb1e53050e97a65365a38936194ef_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
+        $__internal_b6302166fc3e20e1d277b998c060fd6accbf08e1ee5571165b5d240e78562830 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b6302166fc3e20e1d277b998c060fd6accbf08e1ee5571165b5d240e78562830->enter($__internal_b6302166fc3e20e1d277b998c060fd6accbf08e1ee5571165b5d240e78562830_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
 
-        $__internal_ba7605ad004fed100ab048d4e3083f1fb33ed47df894ea4794080a114f007c76 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ba7605ad004fed100ab048d4e3083f1fb33ed47df894ea4794080a114f007c76->enter($__internal_ba7605ad004fed100ab048d4e3083f1fb33ed47df894ea4794080a114f007c76_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
+        $__internal_1e950f0f23e718a3ad09f5add52d9029cdb177be7ba4436375c544e8f92acf6e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1e950f0f23e718a3ad09f5add52d9029cdb177be7ba4436375c544e8f92acf6e->enter($__internal_1e950f0f23e718a3ad09f5add52d9029cdb177be7ba4436375c544e8f92acf6e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
 
-        // line 32
+        // line 33
         echo "    <nav class=\"navbar navbar-custom navbar-fixed-top\" role=\"navigation\">
         <div class=\"container-fluid\">
             <div class=\"navbar-header\">
@@ -268,28 +272,28 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
     </nav>
     ";
         
-        $__internal_ba7605ad004fed100ab048d4e3083f1fb33ed47df894ea4794080a114f007c76->leave($__internal_ba7605ad004fed100ab048d4e3083f1fb33ed47df894ea4794080a114f007c76_prof);
+        $__internal_1e950f0f23e718a3ad09f5add52d9029cdb177be7ba4436375c544e8f92acf6e->leave($__internal_1e950f0f23e718a3ad09f5add52d9029cdb177be7ba4436375c544e8f92acf6e_prof);
 
         
-        $__internal_d1d790d1228d918dcec18938c77b84c69bcfb1e53050e97a65365a38936194ef->leave($__internal_d1d790d1228d918dcec18938c77b84c69bcfb1e53050e97a65365a38936194ef_prof);
+        $__internal_b6302166fc3e20e1d277b998c060fd6accbf08e1ee5571165b5d240e78562830->leave($__internal_b6302166fc3e20e1d277b998c060fd6accbf08e1ee5571165b5d240e78562830_prof);
 
     }
 
-    // line 114
+    // line 115
     public function block_slidebar($context, array $blocks = array())
     {
-        $__internal_4f567e5c23bf43b300c13186721de5821ede82069bc1785a3faf833d9c5d82d3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4f567e5c23bf43b300c13186721de5821ede82069bc1785a3faf833d9c5d82d3->enter($__internal_4f567e5c23bf43b300c13186721de5821ede82069bc1785a3faf833d9c5d82d3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "slidebar"));
+        $__internal_55634c0126b1cfb3458089771e24195a45f2453e697ccd514b8eaa415ef83011 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_55634c0126b1cfb3458089771e24195a45f2453e697ccd514b8eaa415ef83011->enter($__internal_55634c0126b1cfb3458089771e24195a45f2453e697ccd514b8eaa415ef83011_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "slidebar"));
 
-        $__internal_c36e90ee58a8a75197852becc269cc9f6167ab86f18efd0a77204b5e9d88de62 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c36e90ee58a8a75197852becc269cc9f6167ab86f18efd0a77204b5e9d88de62->enter($__internal_c36e90ee58a8a75197852becc269cc9f6167ab86f18efd0a77204b5e9d88de62_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "slidebar"));
+        $__internal_02e1a2a98bcf59141452298cebf9c421690da87672f5a38b4331330f10f9e479 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_02e1a2a98bcf59141452298cebf9c421690da87672f5a38b4331330f10f9e479->enter($__internal_02e1a2a98bcf59141452298cebf9c421690da87672f5a38b4331330f10f9e479_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "slidebar"));
 
-        // line 115
+        // line 116
         echo "    <div id=\"sidebar-collapse\" class=\"col-sm-3 col-lg-2 sidebar\">
         <div class=\"profile-sidebar\">
             <div class=\"profile-userpic\" id=\"photo-profil\">
                 <img src=\"";
-        // line 118
+        // line 119
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/images/photo-profil/client-face2.png"), "html", null, true);
         echo "\" class=\"img-responsive\" alt=\"photo profil\">
             </div>
@@ -307,7 +311,7 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
         </form>
         <ul class=\"nav menu\" id=\"menu_nav\">
             <li ";
-        // line 133
+        // line 134
         $this->displayBlock('accueil', $context, $blocks);
         echo " ><a href=\"";
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_accueil");
@@ -315,7 +319,7 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
             <li><a href=\"widgets.html\" class=\"\"><em class=\"fa fa-calendar\">&nbsp;</em> Calendrier</a></li>
             <li><a href=\"charts.html\" class=\"\"><em class=\"fa fa-bar-chart\">&nbsp;</em> Charts</a></li>
             <li ";
-        // line 136
+        // line 137
         $this->displayBlock('reservation', $context, $blocks);
         echo "><a href=\"";
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_reservation");
@@ -344,7 +348,7 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
                 </ul>
             </li>
             <li><a href=\"";
-        // line 160
+        // line 161
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_index");
         echo "\"><em class=\"fa fa-power-off\">&nbsp;</em> Logout</a></li>
         </ul>
@@ -352,59 +356,59 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
     <!--/.sidebar-->
     ";
         
-        $__internal_c36e90ee58a8a75197852becc269cc9f6167ab86f18efd0a77204b5e9d88de62->leave($__internal_c36e90ee58a8a75197852becc269cc9f6167ab86f18efd0a77204b5e9d88de62_prof);
+        $__internal_02e1a2a98bcf59141452298cebf9c421690da87672f5a38b4331330f10f9e479->leave($__internal_02e1a2a98bcf59141452298cebf9c421690da87672f5a38b4331330f10f9e479_prof);
 
         
-        $__internal_4f567e5c23bf43b300c13186721de5821ede82069bc1785a3faf833d9c5d82d3->leave($__internal_4f567e5c23bf43b300c13186721de5821ede82069bc1785a3faf833d9c5d82d3_prof);
+        $__internal_55634c0126b1cfb3458089771e24195a45f2453e697ccd514b8eaa415ef83011->leave($__internal_55634c0126b1cfb3458089771e24195a45f2453e697ccd514b8eaa415ef83011_prof);
 
     }
 
-    // line 133
+    // line 134
     public function block_accueil($context, array $blocks = array())
     {
-        $__internal_fa1e6cecb41a0ef12432cc24542b00f4192cc7714f6eba760d62a99084a3e4c8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_fa1e6cecb41a0ef12432cc24542b00f4192cc7714f6eba760d62a99084a3e4c8->enter($__internal_fa1e6cecb41a0ef12432cc24542b00f4192cc7714f6eba760d62a99084a3e4c8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
+        $__internal_dffb196042fbe51b026e24989dc881dd6d169b15c867f4040d2b1bc2f0c3f728 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_dffb196042fbe51b026e24989dc881dd6d169b15c867f4040d2b1bc2f0c3f728->enter($__internal_dffb196042fbe51b026e24989dc881dd6d169b15c867f4040d2b1bc2f0c3f728_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
 
-        $__internal_05986fca3033fe5aa45f490c2ce6fbe7240e381eff89a3188d4631e41c8a03e5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_05986fca3033fe5aa45f490c2ce6fbe7240e381eff89a3188d4631e41c8a03e5->enter($__internal_05986fca3033fe5aa45f490c2ce6fbe7240e381eff89a3188d4631e41c8a03e5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
+        $__internal_9f5cbee142594e72774b8e7da1ebcfb28629f8738bb363deb3601b2ad76482e3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9f5cbee142594e72774b8e7da1ebcfb28629f8738bb363deb3601b2ad76482e3->enter($__internal_9f5cbee142594e72774b8e7da1ebcfb28629f8738bb363deb3601b2ad76482e3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
 
         echo " class=\"active\" ";
         
-        $__internal_05986fca3033fe5aa45f490c2ce6fbe7240e381eff89a3188d4631e41c8a03e5->leave($__internal_05986fca3033fe5aa45f490c2ce6fbe7240e381eff89a3188d4631e41c8a03e5_prof);
+        $__internal_9f5cbee142594e72774b8e7da1ebcfb28629f8738bb363deb3601b2ad76482e3->leave($__internal_9f5cbee142594e72774b8e7da1ebcfb28629f8738bb363deb3601b2ad76482e3_prof);
 
         
-        $__internal_fa1e6cecb41a0ef12432cc24542b00f4192cc7714f6eba760d62a99084a3e4c8->leave($__internal_fa1e6cecb41a0ef12432cc24542b00f4192cc7714f6eba760d62a99084a3e4c8_prof);
+        $__internal_dffb196042fbe51b026e24989dc881dd6d169b15c867f4040d2b1bc2f0c3f728->leave($__internal_dffb196042fbe51b026e24989dc881dd6d169b15c867f4040d2b1bc2f0c3f728_prof);
 
     }
 
-    // line 136
+    // line 137
     public function block_reservation($context, array $blocks = array())
     {
-        $__internal_ade677ef749e8538b6adcc6ab2dab8220a310ee46fe7353c827fe61333bac5d9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ade677ef749e8538b6adcc6ab2dab8220a310ee46fe7353c827fe61333bac5d9->enter($__internal_ade677ef749e8538b6adcc6ab2dab8220a310ee46fe7353c827fe61333bac5d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "reservation"));
+        $__internal_993881eddabc6dbf53dd89f1747b775441bc4d0b9f9171a246c6bf964e857f74 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_993881eddabc6dbf53dd89f1747b775441bc4d0b9f9171a246c6bf964e857f74->enter($__internal_993881eddabc6dbf53dd89f1747b775441bc4d0b9f9171a246c6bf964e857f74_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "reservation"));
 
-        $__internal_4a444e35f14a05d2fae42bde78647c81a45553775187140d9d9946327254698b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4a444e35f14a05d2fae42bde78647c81a45553775187140d9d9946327254698b->enter($__internal_4a444e35f14a05d2fae42bde78647c81a45553775187140d9d9946327254698b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "reservation"));
+        $__internal_676106135a379ccef600279c7168af3407badc5c679373600e4dda968c5bdae3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_676106135a379ccef600279c7168af3407badc5c679373600e4dda968c5bdae3->enter($__internal_676106135a379ccef600279c7168af3407badc5c679373600e4dda968c5bdae3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "reservation"));
 
         echo " class=\"active\" ";
         
-        $__internal_4a444e35f14a05d2fae42bde78647c81a45553775187140d9d9946327254698b->leave($__internal_4a444e35f14a05d2fae42bde78647c81a45553775187140d9d9946327254698b_prof);
+        $__internal_676106135a379ccef600279c7168af3407badc5c679373600e4dda968c5bdae3->leave($__internal_676106135a379ccef600279c7168af3407badc5c679373600e4dda968c5bdae3_prof);
 
         
-        $__internal_ade677ef749e8538b6adcc6ab2dab8220a310ee46fe7353c827fe61333bac5d9->leave($__internal_ade677ef749e8538b6adcc6ab2dab8220a310ee46fe7353c827fe61333bac5d9_prof);
+        $__internal_993881eddabc6dbf53dd89f1747b775441bc4d0b9f9171a246c6bf964e857f74->leave($__internal_993881eddabc6dbf53dd89f1747b775441bc4d0b9f9171a246c6bf964e857f74_prof);
 
     }
 
-    // line 166
+    // line 167
     public function block_main($context, array $blocks = array())
     {
-        $__internal_d35e0f116ec74f3f25cf8abcb22e494e8bce0acc91b2f4bdc32b1277e616ed95 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d35e0f116ec74f3f25cf8abcb22e494e8bce0acc91b2f4bdc32b1277e616ed95->enter($__internal_d35e0f116ec74f3f25cf8abcb22e494e8bce0acc91b2f4bdc32b1277e616ed95_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_25f8f03f1fbdcf5d6c1b8b317294c51c518b6b8b57428cea17aded70f0619c59 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_25f8f03f1fbdcf5d6c1b8b317294c51c518b6b8b57428cea17aded70f0619c59->enter($__internal_25f8f03f1fbdcf5d6c1b8b317294c51c518b6b8b57428cea17aded70f0619c59_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
-        $__internal_b36a86cc76853062208c77a9815544da972d627096447c9ae797e01d47302901 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b36a86cc76853062208c77a9815544da972d627096447c9ae797e01d47302901->enter($__internal_b36a86cc76853062208c77a9815544da972d627096447c9ae797e01d47302901_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_fb11469f481946ffaa5248ee603ce757ae592d59cbe0dd7e1f1ad4d19ce33ab9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fb11469f481946ffaa5248ee603ce757ae592d59cbe0dd7e1f1ad4d19ce33ab9->enter($__internal_fb11469f481946ffaa5248ee603ce757ae592d59cbe0dd7e1f1ad4d19ce33ab9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
-        // line 167
+        // line 168
         echo "        <div class=\"row\">
             <ol class=\"breadcrumb\">
                 <li>
@@ -413,7 +417,7 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
                     </a>
                 </li>
                 <li class=\"active\">";
-        // line 174
+        // line 175
         $this->displayBlock('titre_page_li', $context, $blocks);
         echo " </li>
             </ol>
@@ -422,518 +426,518 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
         <div class=\"row\">
             <div class=\"col-lg-12\">
                 <h1 class=\"page-header\">";
-        // line 180
+        // line 181
         $this->displayBlock('titre_page_h1', $context, $blocks);
         echo "</h1>
             </div>
         </div>
         <!--/.row-->
-        ";
-        // line 184
+        <div id=\"charge_page\">
+            ";
+        // line 186
         $this->displayBlock('contenus', $context, $blocks);
         // line 580
-        echo "        <!--/.contenus-->
+        echo "        </div>
+        <!--/.contenus-->
     ";
         
-        $__internal_b36a86cc76853062208c77a9815544da972d627096447c9ae797e01d47302901->leave($__internal_b36a86cc76853062208c77a9815544da972d627096447c9ae797e01d47302901_prof);
+        $__internal_fb11469f481946ffaa5248ee603ce757ae592d59cbe0dd7e1f1ad4d19ce33ab9->leave($__internal_fb11469f481946ffaa5248ee603ce757ae592d59cbe0dd7e1f1ad4d19ce33ab9_prof);
 
         
-        $__internal_d35e0f116ec74f3f25cf8abcb22e494e8bce0acc91b2f4bdc32b1277e616ed95->leave($__internal_d35e0f116ec74f3f25cf8abcb22e494e8bce0acc91b2f4bdc32b1277e616ed95_prof);
+        $__internal_25f8f03f1fbdcf5d6c1b8b317294c51c518b6b8b57428cea17aded70f0619c59->leave($__internal_25f8f03f1fbdcf5d6c1b8b317294c51c518b6b8b57428cea17aded70f0619c59_prof);
 
     }
 
-    // line 174
+    // line 175
     public function block_titre_page_li($context, array $blocks = array())
     {
-        $__internal_e33d2177837e199340140a4e2fa93c3e0dc6182d7ac78df0c9d1df21c6bf31f0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e33d2177837e199340140a4e2fa93c3e0dc6182d7ac78df0c9d1df21c6bf31f0->enter($__internal_e33d2177837e199340140a4e2fa93c3e0dc6182d7ac78df0c9d1df21c6bf31f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
+        $__internal_e4ae9d91cc4907990b5b454ae3c01706f9e74b003ad09e24aa945f84e6a9d5b3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e4ae9d91cc4907990b5b454ae3c01706f9e74b003ad09e24aa945f84e6a9d5b3->enter($__internal_e4ae9d91cc4907990b5b454ae3c01706f9e74b003ad09e24aa945f84e6a9d5b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
 
-        $__internal_b3b5f689d82cfdaf2c231684cd6f1facca26c7ca1d23a6219afbc0ca89d5612f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b3b5f689d82cfdaf2c231684cd6f1facca26c7ca1d23a6219afbc0ca89d5612f->enter($__internal_b3b5f689d82cfdaf2c231684cd6f1facca26c7ca1d23a6219afbc0ca89d5612f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
+        $__internal_3eaa16c3cc0ad23f42de500f64f21d7fd4ef77c8b0b29c01e3c2244e52d2719b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3eaa16c3cc0ad23f42de500f64f21d7fd4ef77c8b0b29c01e3c2244e52d2719b->enter($__internal_3eaa16c3cc0ad23f42de500f64f21d7fd4ef77c8b0b29c01e3c2244e52d2719b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
 
         echo " tableau de bord";
         
-        $__internal_b3b5f689d82cfdaf2c231684cd6f1facca26c7ca1d23a6219afbc0ca89d5612f->leave($__internal_b3b5f689d82cfdaf2c231684cd6f1facca26c7ca1d23a6219afbc0ca89d5612f_prof);
+        $__internal_3eaa16c3cc0ad23f42de500f64f21d7fd4ef77c8b0b29c01e3c2244e52d2719b->leave($__internal_3eaa16c3cc0ad23f42de500f64f21d7fd4ef77c8b0b29c01e3c2244e52d2719b_prof);
 
         
-        $__internal_e33d2177837e199340140a4e2fa93c3e0dc6182d7ac78df0c9d1df21c6bf31f0->leave($__internal_e33d2177837e199340140a4e2fa93c3e0dc6182d7ac78df0c9d1df21c6bf31f0_prof);
+        $__internal_e4ae9d91cc4907990b5b454ae3c01706f9e74b003ad09e24aa945f84e6a9d5b3->leave($__internal_e4ae9d91cc4907990b5b454ae3c01706f9e74b003ad09e24aa945f84e6a9d5b3_prof);
 
     }
 
-    // line 180
+    // line 181
     public function block_titre_page_h1($context, array $blocks = array())
     {
-        $__internal_53d4dfd50e60eca3ff1134bfa8c5cd6e03fc843c225f11157c8fb5ffb0171eeb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_53d4dfd50e60eca3ff1134bfa8c5cd6e03fc843c225f11157c8fb5ffb0171eeb->enter($__internal_53d4dfd50e60eca3ff1134bfa8c5cd6e03fc843c225f11157c8fb5ffb0171eeb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
+        $__internal_286a3c64a73745d629d59d51f988555c648e4297dc1d7993b9aef73264a18dcc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_286a3c64a73745d629d59d51f988555c648e4297dc1d7993b9aef73264a18dcc->enter($__internal_286a3c64a73745d629d59d51f988555c648e4297dc1d7993b9aef73264a18dcc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
 
-        $__internal_84bcd1b970f114351dc10fbfe6b3306db410e96639aba41bb6e837c21cf0535e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_84bcd1b970f114351dc10fbfe6b3306db410e96639aba41bb6e837c21cf0535e->enter($__internal_84bcd1b970f114351dc10fbfe6b3306db410e96639aba41bb6e837c21cf0535e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
+        $__internal_d2a093d0ce91e5041802ee1da08c4031815c6bde432c073245535babd97ac528 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d2a093d0ce91e5041802ee1da08c4031815c6bde432c073245535babd97ac528->enter($__internal_d2a093d0ce91e5041802ee1da08c4031815c6bde432c073245535babd97ac528_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
 
         echo "Tableau de bord";
         
-        $__internal_84bcd1b970f114351dc10fbfe6b3306db410e96639aba41bb6e837c21cf0535e->leave($__internal_84bcd1b970f114351dc10fbfe6b3306db410e96639aba41bb6e837c21cf0535e_prof);
+        $__internal_d2a093d0ce91e5041802ee1da08c4031815c6bde432c073245535babd97ac528->leave($__internal_d2a093d0ce91e5041802ee1da08c4031815c6bde432c073245535babd97ac528_prof);
 
         
-        $__internal_53d4dfd50e60eca3ff1134bfa8c5cd6e03fc843c225f11157c8fb5ffb0171eeb->leave($__internal_53d4dfd50e60eca3ff1134bfa8c5cd6e03fc843c225f11157c8fb5ffb0171eeb_prof);
+        $__internal_286a3c64a73745d629d59d51f988555c648e4297dc1d7993b9aef73264a18dcc->leave($__internal_286a3c64a73745d629d59d51f988555c648e4297dc1d7993b9aef73264a18dcc_prof);
 
     }
 
-    // line 184
+    // line 186
     public function block_contenus($context, array $blocks = array())
     {
-        $__internal_6888fe0801d6d3eb2356ca592c31fa03f28d9baa78fc3e13282e65a4d1417170 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6888fe0801d6d3eb2356ca592c31fa03f28d9baa78fc3e13282e65a4d1417170->enter($__internal_6888fe0801d6d3eb2356ca592c31fa03f28d9baa78fc3e13282e65a4d1417170_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_bf1c84ae694f031656ec2f5e88dff8e21eb59160f9eefa25d805ff3ca68627bb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_bf1c84ae694f031656ec2f5e88dff8e21eb59160f9eefa25d805ff3ca68627bb->enter($__internal_bf1c84ae694f031656ec2f5e88dff8e21eb59160f9eefa25d805ff3ca68627bb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
-        $__internal_aea1e9ff22249bb002b21e02be22c3dff8babc1c8483ce188d0a0bcc1585ebd5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_aea1e9ff22249bb002b21e02be22c3dff8babc1c8483ce188d0a0bcc1585ebd5->enter($__internal_aea1e9ff22249bb002b21e02be22c3dff8babc1c8483ce188d0a0bcc1585ebd5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_f70d4b99eada13ee1ed5975c6a232d4fba04f6908b33b028fac6f3acfca42f0b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f70d4b99eada13ee1ed5975c6a232d4fba04f6908b33b028fac6f3acfca42f0b->enter($__internal_f70d4b99eada13ee1ed5975c6a232d4fba04f6908b33b028fac6f3acfca42f0b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
-        // line 185
-        echo "
-        <div class=\"panel panel-container\">
+        // line 187
+        echo "            <div class=\"panel panel-container\">
+                <div class=\"row\">
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-teal panel-widget border-right\">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-shopping-cart color-blue\"></em>
+                                <div class=\"large\">120</div>
+                                <div class=\"text-muted\">New Orders</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-blue panel-widget border-right\">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-comments color-orange\"></em>
+                                <div class=\"large\">52</div>
+                                <div class=\"text-muted\">Comments</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-orange panel-widget border-right\">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-users color-teal\"></em>
+                                <div class=\"large\">24</div>
+                                <div class=\"text-muted\">New Users</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-red panel-widget \">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-search color-red\"></em>
+                                <div class=\"large\">25.2k</div>
+                                <div class=\"text-muted\">Page Views</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
             <div class=\"row\">
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-teal panel-widget border-right\">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-shopping-cart color-blue\"></em>
-                            <div class=\"large\">120</div>
-                            <div class=\"text-muted\">New Orders</div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-blue panel-widget border-right\">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-comments color-orange\"></em>
-                            <div class=\"large\">52</div>
-                            <div class=\"text-muted\">Comments</div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-orange panel-widget border-right\">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-users color-teal\"></em>
-                            <div class=\"large\">24</div>
-                            <div class=\"text-muted\">New Users</div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-red panel-widget \">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-search color-red\"></em>
-                            <div class=\"large\">25.2k</div>
-                            <div class=\"text-muted\">Page Views</div>
+                <div class=\"col-md-12\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-heading\">
+                            Site Traffic Overview
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
+                                    </a>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body\">
+                            <div class=\"canvas-wrapper\">
+                                <canvas class=\"main-chart\" id=\"line-chart\" height=\"200\" width=\"600\"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--/.row-->
-        </div>
-        <div class=\"row\">
-            <div class=\"col-md-12\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-heading\">
-                        Site Traffic Overview
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body\">
-                        <div class=\"canvas-wrapper\">
-                            <canvas class=\"main-chart\" id=\"line-chart\" height=\"200\" width=\"600\"></canvas>
+
+            <div class=\"row\">
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>New Orders</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-blue\" data-percent=\"92\"><span class=\"percent\">92%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>Comments</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-orange\" data-percent=\"65\"><span class=\"percent\">65%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>New Users</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-teal\" data-percent=\"56\"><span class=\"percent\">56%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>Visitors</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-red\" data-percent=\"27\"><span class=\"percent\">27%</span></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--/.row-->
+            <!--/.row-->
 
-        <div class=\"row\">
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>New Orders</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-blue\" data-percent=\"92\"><span class=\"percent\">92%</span></div>
+            <div class=\"row\">
+                <div class=\"col-md-6\">
+                    <div class=\"panel panel-default chat\">
+                        <div class=\"panel-heading\">
+                            Chat
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
+                                    </a>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body\">
+                            <ul>
+                                <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
+                                    <img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
+                                    </span>
+                                    <div class=\"chat-body clearfix\">
+                                        <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
+                                    </div>
+                                </li>
+                                <li class=\"right clearfix\"><span class=\"chat-img pull-right\">
+                                    <img src=\"http://placehold.it/60/dde0e6/5f6468\" alt=\"User Avatar\" class=\"img-circle\" />
+                                    </span>
+                                    <div class=\"chat-body clearfix\">
+                                        <div class=\"header\"><strong class=\"pull-left primary-font\">Jane Doe</strong> <small class=\"text-muted\">6 mins ago</small></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
+                                    </div>
+                                </li>
+                                <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
+                                    <img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
+                                    </span>
+                                    <div class=\"chat-body clearfix\">
+                                        <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=\"panel-footer\">
+                            <div class=\"input-group\">
+                                <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Type your message here...\" /><span class=\"input-group-btn\">
+                                    <button class=\"btn btn-primary btn-md\" id=\"btn-chat\">Send</button>
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-heading\">
+                            To-do List
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
+                                    </a>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body\">
+                            <ul class=\"todo-list\">
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-1\" />
+                                        <label for=\"checkbox-1\">Make coffee</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-2\" />
+                                        <label for=\"checkbox-2\">Check emails</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-3\" />
+                                        <label for=\"checkbox-3\">Reply to Jane</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-4\" />
+                                        <label for=\"checkbox-4\">Make more coffee</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-5\" />
+                                        <label for=\"checkbox-5\">Work on the new design</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-6\" />
+                                        <label for=\"checkbox-6\">Get feedback on design</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=\"panel-footer\">
+                            <div class=\"input-group\">
+                                <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Add new task\" /><span class=\"input-group-btn\">
+                                    <button class=\"btn btn-primary btn-md\" id=\"btn-todo\">Add</button>
+                            </span></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>Comments</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-orange\" data-percent=\"65\"><span class=\"percent\">65%</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>New Users</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-teal\" data-percent=\"56\"><span class=\"percent\">56%</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>Visitors</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-red\" data-percent=\"27\"><span class=\"percent\">27%</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/.row-->
+                <!--/.col-->
 
-        <div class=\"row\">
-            <div class=\"col-md-6\">
-                <div class=\"panel panel-default chat\">
-                    <div class=\"panel-heading\">
-                        Chat
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body\">
-                        <ul>
-                            <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
-\t\t\t\t\t\t\t\t<img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
-\t\t\t\t\t\t\t\t</span>
-                                <div class=\"chat-body clearfix\">
-                                    <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
-                                </div>
-                            </li>
-                            <li class=\"right clearfix\"><span class=\"chat-img pull-right\">
-\t\t\t\t\t\t\t\t<img src=\"http://placehold.it/60/dde0e6/5f6468\" alt=\"User Avatar\" class=\"img-circle\" />
-\t\t\t\t\t\t\t\t</span>
-                                <div class=\"chat-body clearfix\">
-                                    <div class=\"header\"><strong class=\"pull-left primary-font\">Jane Doe</strong> <small class=\"text-muted\">6 mins ago</small></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
-                                </div>
-                            </li>
-                            <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
-\t\t\t\t\t\t\t\t<img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
-\t\t\t\t\t\t\t\t</span>
-                                <div class=\"chat-body clearfix\">
-                                    <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class=\"panel-footer\">
-                        <div class=\"input-group\">
-                            <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Type your message here...\" /><span class=\"input-group-btn\">
-\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-md\" id=\"btn-chat\">Send</button>
-\t\t\t\t\t\t</span></div>
-                    </div>
-                </div>
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-heading\">
-                        To-do List
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body\">
-                        <ul class=\"todo-list\">
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-1\" />
-                                    <label for=\"checkbox-1\">Make coffee</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
+
+                <div class=\"col-md-6\">
+                    <div class=\"panel panel-default \">
+                        <div class=\"panel-heading\">
+                            Timeline
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
                                     </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-2\" />
-                                    <label for=\"checkbox-2\">Check emails</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-3\" />
-                                    <label for=\"checkbox-3\">Reply to Jane</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-4\" />
-                                    <label for=\"checkbox-4\">Make more coffee</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-5\" />
-                                    <label for=\"checkbox-5\">Work on the new design</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-6\" />
-                                    <label for=\"checkbox-6\">Get feedback on design</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class=\"panel-footer\">
-                        <div class=\"input-group\">
-                            <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Add new task\" /><span class=\"input-group-btn\">
-\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-md\" id=\"btn-todo\">Add</button>
-\t\t\t\t\t\t</span></div>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body timeline-container\">
+                            <ul class=\"timeline\">
+                                <li>
+                                    <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-pushpin\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class=\"timeline-badge primary\"><em class=\"glyphicon glyphicon-link\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-camera\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-paperclip\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <!--/.col-->
-
-
-            <div class=\"col-md-6\">
-                <div class=\"panel panel-default \">
-                    <div class=\"panel-heading\">
-                        Timeline
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body timeline-container\">
-                        <ul class=\"timeline\">
-                            <li>
-                                <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-pushpin\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class=\"timeline-badge primary\"><em class=\"glyphicon glyphicon-link\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-camera\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-paperclip\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--/.col-->
-        </div>
-        <!--/.row-->
         ";
         
-        $__internal_aea1e9ff22249bb002b21e02be22c3dff8babc1c8483ce188d0a0bcc1585ebd5->leave($__internal_aea1e9ff22249bb002b21e02be22c3dff8babc1c8483ce188d0a0bcc1585ebd5_prof);
+        $__internal_f70d4b99eada13ee1ed5975c6a232d4fba04f6908b33b028fac6f3acfca42f0b->leave($__internal_f70d4b99eada13ee1ed5975c6a232d4fba04f6908b33b028fac6f3acfca42f0b_prof);
 
         
-        $__internal_6888fe0801d6d3eb2356ca592c31fa03f28d9baa78fc3e13282e65a4d1417170->leave($__internal_6888fe0801d6d3eb2356ca592c31fa03f28d9baa78fc3e13282e65a4d1417170_prof);
+        $__internal_bf1c84ae694f031656ec2f5e88dff8e21eb59160f9eefa25d805ff3ca68627bb->leave($__internal_bf1c84ae694f031656ec2f5e88dff8e21eb59160f9eefa25d805ff3ca68627bb_prof);
 
     }
 
-    // line 589
+    // line 590
     public function block_scripts($context, array $blocks = array())
     {
-        $__internal_c07083d14233e026ba6d5d7f7d863748247602bca7a4aae1c92f3aa873424ff6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_c07083d14233e026ba6d5d7f7d863748247602bca7a4aae1c92f3aa873424ff6->enter($__internal_c07083d14233e026ba6d5d7f7d863748247602bca7a4aae1c92f3aa873424ff6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "scripts"));
+        $__internal_ac400f3c4b3d55a975b34031b75f6ae14404d7da2a50fe8ccb4f29f487f9d57b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ac400f3c4b3d55a975b34031b75f6ae14404d7da2a50fe8ccb4f29f487f9d57b->enter($__internal_ac400f3c4b3d55a975b34031b75f6ae14404d7da2a50fe8ccb4f29f487f9d57b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "scripts"));
 
-        $__internal_3a833ecb377062fd00de4c555d6ecb1841f617d082cec2cc99f1b96f181e5f70 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3a833ecb377062fd00de4c555d6ecb1841f617d082cec2cc99f1b96f181e5f70->enter($__internal_3a833ecb377062fd00de4c555d6ecb1841f617d082cec2cc99f1b96f181e5f70_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "scripts"));
+        $__internal_eb7bc8a1a334eec7e8b4a71217ebbc4f805892b3f482e1c60cde0be2741089b7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_eb7bc8a1a334eec7e8b4a71217ebbc4f805892b3f482e1c60cde0be2741089b7->enter($__internal_eb7bc8a1a334eec7e8b4a71217ebbc4f805892b3f482e1c60cde0be2741089b7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "scripts"));
 
-        // line 590
+        // line 591
         echo "    <script src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/jquery-3.3.1.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 591
+        // line 592
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 592
+        // line 593
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/chart.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 593
+        // line 594
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/chart-data.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 594
+        // line 595
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/easypiechart.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 595
+        // line 596
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/easypiechart-data.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 596
+        // line 597
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/bootstrap-datepicker.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 597
+        // line 598
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/custom.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 598
+        // line 599
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("admin/js/monscript.js"), "html", null, true);
         echo "\"></script>
     <script>
@@ -949,10 +953,10 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
     </script>
 ";
         
-        $__internal_3a833ecb377062fd00de4c555d6ecb1841f617d082cec2cc99f1b96f181e5f70->leave($__internal_3a833ecb377062fd00de4c555d6ecb1841f617d082cec2cc99f1b96f181e5f70_prof);
+        $__internal_eb7bc8a1a334eec7e8b4a71217ebbc4f805892b3f482e1c60cde0be2741089b7->leave($__internal_eb7bc8a1a334eec7e8b4a71217ebbc4f805892b3f482e1c60cde0be2741089b7_prof);
 
         
-        $__internal_c07083d14233e026ba6d5d7f7d863748247602bca7a4aae1c92f3aa873424ff6->leave($__internal_c07083d14233e026ba6d5d7f7d863748247602bca7a4aae1c92f3aa873424ff6_prof);
+        $__internal_ac400f3c4b3d55a975b34031b75f6ae14404d7da2a50fe8ccb4f29f487f9d57b->leave($__internal_ac400f3c4b3d55a975b34031b75f6ae14404d7da2a50fe8ccb4f29f487f9d57b_prof);
 
     }
 
@@ -963,7 +967,7 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
 
     public function getDebugInfo()
     {
-        return array (  937 => 598,  933 => 597,  929 => 596,  925 => 595,  921 => 594,  917 => 593,  913 => 592,  909 => 591,  904 => 590,  895 => 589,  491 => 185,  482 => 184,  464 => 180,  446 => 174,  435 => 580,  433 => 184,  426 => 180,  417 => 174,  408 => 167,  399 => 166,  381 => 136,  363 => 133,  348 => 160,  319 => 136,  311 => 133,  293 => 118,  288 => 115,  279 => 114,  190 => 32,  181 => 31,  166 => 582,  164 => 166,  161 => 165,  159 => 114,  155 => 112,  152 => 31,  143 => 30,  126 => 19,  124 => 18,  120 => 15,  116 => 14,  112 => 13,  108 => 12,  103 => 11,  94 => 10,  83 => 8,  74 => 7,  62 => 611,  60 => 589,  57 => 588,  55 => 30,  50 => 27,  47 => 10,  45 => 7,  37 => 1,);
+        return array (  941 => 599,  937 => 598,  933 => 597,  929 => 596,  925 => 595,  921 => 594,  917 => 593,  913 => 592,  908 => 591,  899 => 590,  497 => 187,  488 => 186,  470 => 181,  452 => 175,  440 => 580,  438 => 186,  430 => 181,  421 => 175,  412 => 168,  403 => 167,  385 => 137,  367 => 134,  352 => 161,  323 => 137,  315 => 134,  297 => 119,  292 => 116,  283 => 115,  194 => 33,  185 => 32,  170 => 583,  168 => 167,  165 => 166,  163 => 115,  159 => 113,  156 => 32,  147 => 31,  130 => 20,  128 => 19,  124 => 16,  120 => 15,  116 => 14,  112 => 13,  108 => 12,  103 => 11,  94 => 10,  83 => 8,  74 => 7,  62 => 612,  60 => 590,  57 => 589,  55 => 31,  50 => 28,  47 => 10,  45 => 7,  37 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -989,8 +993,9 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
     <link href=\"{{asset('admin/css/bootstrap.min.css')}}\" rel=\"stylesheet\">
     <link href=\"{{asset('admin/css/font-awesome.min.css')}}\" rel=\"stylesheet\">
     <link href=\"{{asset('admin/css/datepicker3.css')}}\" rel=\"stylesheet\">
-    <link href=\"{{asset('admin/css/styles.css')}}\" rel=\"stylesheet\">
     <link href=\"{{asset('admin/css/monstyle.css')}}\" rel=\"stylesheet\">
+    <link href=\"{{asset('admin/css/styles.css')}}\" rel=\"stylesheet\">
+    <link href=\"{{asset('admin/css/styles.css')}}\" rel=\"stylesheet\">
     {# <script type=\"text/javascript\" src=\"{{asset('DataTables/datatables.min.js')}}\"></script>
     <link rel=\"stylesheet\" href=\"{{asset('DataTables/datatables.min.css')}}\" type=\"text/css\"/> #}
     {# <script src=\"{{asset('admin/js/jquery-1.11.1.min.js')}}\"></script> #}
@@ -1159,402 +1164,402 @@ class __TwigTemplate_4cd5a20413dcb4641539b1ece8e02c7a22cf319bb455a0476a93efb01f7
             </div>
         </div>
         <!--/.row-->
-        {% block contenus %}
-
-        <div class=\"panel panel-container\">
+        <div id=\"charge_page\">
+            {% block contenus %}
+            <div class=\"panel panel-container\">
+                <div class=\"row\">
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-teal panel-widget border-right\">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-shopping-cart color-blue\"></em>
+                                <div class=\"large\">120</div>
+                                <div class=\"text-muted\">New Orders</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-blue panel-widget border-right\">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-comments color-orange\"></em>
+                                <div class=\"large\">52</div>
+                                <div class=\"text-muted\">Comments</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-orange panel-widget border-right\">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-users color-teal\"></em>
+                                <div class=\"large\">24</div>
+                                <div class=\"text-muted\">New Users</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
+                        <div class=\"panel panel-red panel-widget \">
+                            <div class=\"row no-padding\"><em class=\"fa fa-xl fa-search color-red\"></em>
+                                <div class=\"large\">25.2k</div>
+                                <div class=\"text-muted\">Page Views</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
             <div class=\"row\">
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-teal panel-widget border-right\">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-shopping-cart color-blue\"></em>
-                            <div class=\"large\">120</div>
-                            <div class=\"text-muted\">New Orders</div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-blue panel-widget border-right\">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-comments color-orange\"></em>
-                            <div class=\"large\">52</div>
-                            <div class=\"text-muted\">Comments</div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-orange panel-widget border-right\">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-users color-teal\"></em>
-                            <div class=\"large\">24</div>
-                            <div class=\"text-muted\">New Users</div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xs-6 col-md-3 col-lg-3 no-padding\">
-                    <div class=\"panel panel-red panel-widget \">
-                        <div class=\"row no-padding\"><em class=\"fa fa-xl fa-search color-red\"></em>
-                            <div class=\"large\">25.2k</div>
-                            <div class=\"text-muted\">Page Views</div>
+                <div class=\"col-md-12\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-heading\">
+                            Site Traffic Overview
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
+                                    </a>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body\">
+                            <div class=\"canvas-wrapper\">
+                                <canvas class=\"main-chart\" id=\"line-chart\" height=\"200\" width=\"600\"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--/.row-->
-        </div>
-        <div class=\"row\">
-            <div class=\"col-md-12\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-heading\">
-                        Site Traffic Overview
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body\">
-                        <div class=\"canvas-wrapper\">
-                            <canvas class=\"main-chart\" id=\"line-chart\" height=\"200\" width=\"600\"></canvas>
+
+            <div class=\"row\">
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>New Orders</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-blue\" data-percent=\"92\"><span class=\"percent\">92%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>Comments</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-orange\" data-percent=\"65\"><span class=\"percent\">65%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>New Users</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-teal\" data-percent=\"56\"><span class=\"percent\">56%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"col-xs-6 col-md-3\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-body easypiechart-panel\">
+                            <h4>Visitors</h4>
+                            <div class=\"easypiechart\" id=\"easypiechart-red\" data-percent=\"27\"><span class=\"percent\">27%</span></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--/.row-->
+            <!--/.row-->
 
-        <div class=\"row\">
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>New Orders</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-blue\" data-percent=\"92\"><span class=\"percent\">92%</span></div>
+            <div class=\"row\">
+                <div class=\"col-md-6\">
+                    <div class=\"panel panel-default chat\">
+                        <div class=\"panel-heading\">
+                            Chat
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
+                                    </a>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body\">
+                            <ul>
+                                <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
+                                    <img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
+                                    </span>
+                                    <div class=\"chat-body clearfix\">
+                                        <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
+                                    </div>
+                                </li>
+                                <li class=\"right clearfix\"><span class=\"chat-img pull-right\">
+                                    <img src=\"http://placehold.it/60/dde0e6/5f6468\" alt=\"User Avatar\" class=\"img-circle\" />
+                                    </span>
+                                    <div class=\"chat-body clearfix\">
+                                        <div class=\"header\"><strong class=\"pull-left primary-font\">Jane Doe</strong> <small class=\"text-muted\">6 mins ago</small></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
+                                    </div>
+                                </li>
+                                <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
+                                    <img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
+                                    </span>
+                                    <div class=\"chat-body clearfix\">
+                                        <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=\"panel-footer\">
+                            <div class=\"input-group\">
+                                <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Type your message here...\" /><span class=\"input-group-btn\">
+                                    <button class=\"btn btn-primary btn-md\" id=\"btn-chat\">Send</button>
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-heading\">
+                            To-do List
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
+                                    </a>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body\">
+                            <ul class=\"todo-list\">
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-1\" />
+                                        <label for=\"checkbox-1\">Make coffee</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-2\" />
+                                        <label for=\"checkbox-2\">Check emails</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-3\" />
+                                        <label for=\"checkbox-3\">Reply to Jane</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-4\" />
+                                        <label for=\"checkbox-4\">Make more coffee</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-5\" />
+                                        <label for=\"checkbox-5\">Work on the new design</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class=\"todo-list-item\">
+                                    <div class=\"checkbox\">
+                                        <input type=\"checkbox\" id=\"checkbox-6\" />
+                                        <label for=\"checkbox-6\">Get feedback on design</label>
+                                    </div>
+                                    <div class=\"pull-right action-buttons\">
+                                        <a href=\"#\" class=\"trash\">
+                                            <em class=\"fa fa-trash\"></em>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=\"panel-footer\">
+                            <div class=\"input-group\">
+                                <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Add new task\" /><span class=\"input-group-btn\">
+                                    <button class=\"btn btn-primary btn-md\" id=\"btn-todo\">Add</button>
+                            </span></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>Comments</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-orange\" data-percent=\"65\"><span class=\"percent\">65%</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>New Users</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-teal\" data-percent=\"56\"><span class=\"percent\">56%</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col-xs-6 col-md-3\">
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-body easypiechart-panel\">
-                        <h4>Visitors</h4>
-                        <div class=\"easypiechart\" id=\"easypiechart-red\" data-percent=\"27\"><span class=\"percent\">27%</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/.row-->
+                <!--/.col-->
 
-        <div class=\"row\">
-            <div class=\"col-md-6\">
-                <div class=\"panel panel-default chat\">
-                    <div class=\"panel-heading\">
-                        Chat
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body\">
-                        <ul>
-                            <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
-\t\t\t\t\t\t\t\t<img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
-\t\t\t\t\t\t\t\t</span>
-                                <div class=\"chat-body clearfix\">
-                                    <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
-                                </div>
-                            </li>
-                            <li class=\"right clearfix\"><span class=\"chat-img pull-right\">
-\t\t\t\t\t\t\t\t<img src=\"http://placehold.it/60/dde0e6/5f6468\" alt=\"User Avatar\" class=\"img-circle\" />
-\t\t\t\t\t\t\t\t</span>
-                                <div class=\"chat-body clearfix\">
-                                    <div class=\"header\"><strong class=\"pull-left primary-font\">Jane Doe</strong> <small class=\"text-muted\">6 mins ago</small></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
-                                </div>
-                            </li>
-                            <li class=\"left clearfix\"><span class=\"chat-img pull-left\">
-\t\t\t\t\t\t\t\t<img src=\"http://placehold.it/60/30a5ff/fff\" alt=\"User Avatar\" class=\"img-circle\" />
-\t\t\t\t\t\t\t\t</span>
-                                <div class=\"chat-body clearfix\">
-                                    <div class=\"header\"><strong class=\"primary-font\">John Doe</strong> <small class=\"text-muted\">32 mins ago</small></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante turpis, rutrum ut ullamcorper sed, dapibus ac nunc.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class=\"panel-footer\">
-                        <div class=\"input-group\">
-                            <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Type your message here...\" /><span class=\"input-group-btn\">
-\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-md\" id=\"btn-chat\">Send</button>
-\t\t\t\t\t\t</span></div>
-                    </div>
-                </div>
-                <div class=\"panel panel-default\">
-                    <div class=\"panel-heading\">
-                        To-do List
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body\">
-                        <ul class=\"todo-list\">
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-1\" />
-                                    <label for=\"checkbox-1\">Make coffee</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
+
+                <div class=\"col-md-6\">
+                    <div class=\"panel panel-default \">
+                        <div class=\"panel-heading\">
+                            Timeline
+                            <ul class=\"pull-right panel-settings panel-button-tab-right\">
+                                <li class=\"dropdown\">
+                                    <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
+                                        <em class=\"fa fa-cogs\"></em>
                                     </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-2\" />
-                                    <label for=\"checkbox-2\">Check emails</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-3\" />
-                                    <label for=\"checkbox-3\">Reply to Jane</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-4\" />
-                                    <label for=\"checkbox-4\">Make more coffee</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-5\" />
-                                    <label for=\"checkbox-5\">Work on the new design</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class=\"todo-list-item\">
-                                <div class=\"checkbox\">
-                                    <input type=\"checkbox\" id=\"checkbox-6\" />
-                                    <label for=\"checkbox-6\">Get feedback on design</label>
-                                </div>
-                                <div class=\"pull-right action-buttons\">
-                                    <a href=\"#\" class=\"trash\">
-                                        <em class=\"fa fa-trash\"></em>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class=\"panel-footer\">
-                        <div class=\"input-group\">
-                            <input id=\"btn-input\" type=\"text\" class=\"form-control input-md\" placeholder=\"Add new task\" /><span class=\"input-group-btn\">
-\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-md\" id=\"btn-todo\">Add</button>
-\t\t\t\t\t\t</span></div>
+                                    <ul class=\"dropdown-menu dropdown-menu-right\">
+                                        <li>
+                                            <ul class=\"dropdown-settings\">
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 1
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 2
+                                                    </a>
+                                                </li>
+                                                <li class=\"divider\"></li>
+                                                <li>
+                                                    <a href=\"#\">
+                                                        <em class=\"fa fa-cog\"></em> Settings 3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                        <div class=\"panel-body timeline-container\">
+                            <ul class=\"timeline\">
+                                <li>
+                                    <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-pushpin\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class=\"timeline-badge primary\"><em class=\"glyphicon glyphicon-link\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-camera\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-paperclip\"></em></div>
+                                    <div class=\"timeline-panel\">
+                                        <div class=\"timeline-heading\">
+                                            <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
+                                        </div>
+                                        <div class=\"timeline-body\">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <!--/.col-->
-
-
-            <div class=\"col-md-6\">
-                <div class=\"panel panel-default \">
-                    <div class=\"panel-heading\">
-                        Timeline
-                        <ul class=\"pull-right panel-settings panel-button-tab-right\">
-                            <li class=\"dropdown\">
-                                <a class=\"pull-right dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">
-                                    <em class=\"fa fa-cogs\"></em>
-                                </a>
-                                <ul class=\"dropdown-menu dropdown-menu-right\">
-                                    <li>
-                                        <ul class=\"dropdown-settings\">
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 1
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 2
-                                                </a>
-                                            </li>
-                                            <li class=\"divider\"></li>
-                                            <li>
-                                                <a href=\"#\">
-                                                    <em class=\"fa fa-cog\"></em> Settings 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
-                    <div class=\"panel-body timeline-container\">
-                        <ul class=\"timeline\">
-                            <li>
-                                <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-pushpin\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class=\"timeline-badge primary\"><em class=\"glyphicon glyphicon-link\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-camera\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class=\"timeline-badge\"><em class=\"glyphicon glyphicon-paperclip\"></em></div>
-                                <div class=\"timeline-panel\">
-                                    <div class=\"timeline-heading\">
-                                        <h4 class=\"timeline-title\">Lorem ipsum dolor sit amet</h4>
-                                    </div>
-                                    <div class=\"timeline-body\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--/.col-->
-        </div>
-        <!--/.row-->
         {% endblock %}
+        </div>
         <!--/.contenus-->
     {% endblock %}
     <div class=\"col-sm-12\">

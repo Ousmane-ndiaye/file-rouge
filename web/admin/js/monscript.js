@@ -41,6 +41,47 @@ $(document).ready(function() {
         }
     }
 
+    function clickSurValider() {
+        var param = "idReservation=" + $(this).data("idreservation") + "&idClient=" + $(this).data("idclient") + "&idBien=" + $(this).data("idbien");
+        $("#charge_page").load("contrat #charge_contrat", param, function() {
+            $("#btn_valider_reserve").on("click", function() {
+                clickSurValider();
+            });
+
+            $("#btn_annuler_reserve").on("click", function() {
+                $("#charge_page").load("reservation #charge_reservation", function() {
+                    $(".voir_detail").each(function() {
+                        $(this).on("click", function() {
+                            clickSurVoir($(this));
+                        });
+                    });
+                });
+            });
+        });
+    }
+
+    function clickSurVoir(bouton) {
+        var param = "idReservation=" + bouton.data("idreservation") + "&idClient=" + bouton.data("idclient") + "&idBien=" + bouton.data("idbien");
+        $("#charge_page").load("detail #charge_detail", param, function() {
+            $("#btn_valider_reserve").on("click", function() {
+                var param = "idReservation=" + $(this).data("idreservation") + "&idClient=" + $(this).data("idclient") + "&idBien=" + $(this).data("idbien");
+                $("#charge_page").load("contrat #charge_contrat", param, function() {
+
+                });
+            });
+
+            $("#btn_annuler_reserve").on("click", function() {
+                $("#charge_page").load("reservation #charge_reservation", function() {
+                    $(".voir_detail").each(function() {
+                        $(this).on("click", function() {
+                            clickSurVoir($(this));
+                        });
+                    });
+                });
+            });
+        });
+    }
+
     $(".cacher").each(function() {
         $(this).hide();
     });
@@ -97,11 +138,11 @@ $(document).ready(function() {
             }
             return valid;
         });
-    })
+    });
 
     $(".voir_detail").each(function() {
         $(this).on("click", function() {
-            alert($(this).data("idreservation") + " " + $(this).data("idclient") + " " + $(this).data("idbien"));
-        })
-    })
-})
+            clickSurVoir($(this));
+        });
+    });
+});

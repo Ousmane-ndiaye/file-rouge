@@ -24,29 +24,29 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_26c7df050b9814ee62710be067fcf0cbdbf91711be3dd9fb1aece64c10445d31 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_26c7df050b9814ee62710be067fcf0cbdbf91711be3dd9fb1aece64c10445d31->enter($__internal_26c7df050b9814ee62710be067fcf0cbdbf91711be3dd9fb1aece64c10445d31_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/reservation.html.twig"));
+        $__internal_98f27f9231348bfc7504c5fea040a9859cce0e504036861eedfa4eeba0f673e4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_98f27f9231348bfc7504c5fea040a9859cce0e504036861eedfa4eeba0f673e4->enter($__internal_98f27f9231348bfc7504c5fea040a9859cce0e504036861eedfa4eeba0f673e4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/reservation.html.twig"));
 
-        $__internal_98070317784d87bee5e8a8c6716cb29b991b1accba3ca4d6202f07ec8fb0ffce = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_98070317784d87bee5e8a8c6716cb29b991b1accba3ca4d6202f07ec8fb0ffce->enter($__internal_98070317784d87bee5e8a8c6716cb29b991b1accba3ca4d6202f07ec8fb0ffce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/reservation.html.twig"));
+        $__internal_f5c3c3f24de81428395977dc6cdeef42ee98d4742fdc4a43543ad4738fdc8eb6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f5c3c3f24de81428395977dc6cdeef42ee98d4742fdc4a43543ad4738fdc8eb6->enter($__internal_f5c3c3f24de81428395977dc6cdeef42ee98d4742fdc4a43543ad4738fdc8eb6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/reservation.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_26c7df050b9814ee62710be067fcf0cbdbf91711be3dd9fb1aece64c10445d31->leave($__internal_26c7df050b9814ee62710be067fcf0cbdbf91711be3dd9fb1aece64c10445d31_prof);
+        $__internal_98f27f9231348bfc7504c5fea040a9859cce0e504036861eedfa4eeba0f673e4->leave($__internal_98f27f9231348bfc7504c5fea040a9859cce0e504036861eedfa4eeba0f673e4_prof);
 
         
-        $__internal_98070317784d87bee5e8a8c6716cb29b991b1accba3ca4d6202f07ec8fb0ffce->leave($__internal_98070317784d87bee5e8a8c6716cb29b991b1accba3ca4d6202f07ec8fb0ffce_prof);
+        $__internal_f5c3c3f24de81428395977dc6cdeef42ee98d4742fdc4a43543ad4738fdc8eb6->leave($__internal_f5c3c3f24de81428395977dc6cdeef42ee98d4742fdc4a43543ad4738fdc8eb6_prof);
 
     }
 
     // line 2
     public function block_accueil($context, array $blocks = array())
     {
-        $__internal_078bdb10c35eb39c39620e5fbbc70d2e079c7c5edc0b78b6599ffd302e46e489 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_078bdb10c35eb39c39620e5fbbc70d2e079c7c5edc0b78b6599ffd302e46e489->enter($__internal_078bdb10c35eb39c39620e5fbbc70d2e079c7c5edc0b78b6599ffd302e46e489_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
+        $__internal_c460adc2b052b069084f129fcbd5aeca85ed53df79727f9d2b1ca19d905a659c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c460adc2b052b069084f129fcbd5aeca85ed53df79727f9d2b1ca19d905a659c->enter($__internal_c460adc2b052b069084f129fcbd5aeca85ed53df79727f9d2b1ca19d905a659c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
 
-        $__internal_3d4c67ff2d6210f159a2819e13f5b75c893d943abbd4938891577864c63ac718 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3d4c67ff2d6210f159a2819e13f5b75c893d943abbd4938891577864c63ac718->enter($__internal_3d4c67ff2d6210f159a2819e13f5b75c893d943abbd4938891577864c63ac718_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
+        $__internal_d2e7528a81295733897407c97b989824818046a30a84f663fdd186b5ac8b3998 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d2e7528a81295733897407c97b989824818046a30a84f663fdd186b5ac8b3998->enter($__internal_d2e7528a81295733897407c97b989824818046a30a84f663fdd186b5ac8b3998_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
 
         // line 3
         echo "    ";
@@ -54,96 +54,96 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
         echo "
 ";
         
-        $__internal_3d4c67ff2d6210f159a2819e13f5b75c893d943abbd4938891577864c63ac718->leave($__internal_3d4c67ff2d6210f159a2819e13f5b75c893d943abbd4938891577864c63ac718_prof);
+        $__internal_d2e7528a81295733897407c97b989824818046a30a84f663fdd186b5ac8b3998->leave($__internal_d2e7528a81295733897407c97b989824818046a30a84f663fdd186b5ac8b3998_prof);
 
         
-        $__internal_078bdb10c35eb39c39620e5fbbc70d2e079c7c5edc0b78b6599ffd302e46e489->leave($__internal_078bdb10c35eb39c39620e5fbbc70d2e079c7c5edc0b78b6599ffd302e46e489_prof);
+        $__internal_c460adc2b052b069084f129fcbd5aeca85ed53df79727f9d2b1ca19d905a659c->leave($__internal_c460adc2b052b069084f129fcbd5aeca85ed53df79727f9d2b1ca19d905a659c_prof);
 
     }
 
     // line 5
     public function block_titre_page_li($context, array $blocks = array())
     {
-        $__internal_a97a96b5f147a0349dd99e73c44c9a7fc9846788d7bf7a7ffe37ea95f0fcfebb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a97a96b5f147a0349dd99e73c44c9a7fc9846788d7bf7a7ffe37ea95f0fcfebb->enter($__internal_a97a96b5f147a0349dd99e73c44c9a7fc9846788d7bf7a7ffe37ea95f0fcfebb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
+        $__internal_6ac85a8a9c5d99aaab308be74667be98fd7c4b5cbdb292c761f5d9fbe5f7efc3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_6ac85a8a9c5d99aaab308be74667be98fd7c4b5cbdb292c761f5d9fbe5f7efc3->enter($__internal_6ac85a8a9c5d99aaab308be74667be98fd7c4b5cbdb292c761f5d9fbe5f7efc3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
 
-        $__internal_5e46d15fc67cfe6513ecc91b4fb010208cc4ed9103b57215fbc5564b47b7ddf9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5e46d15fc67cfe6513ecc91b4fb010208cc4ed9103b57215fbc5564b47b7ddf9->enter($__internal_5e46d15fc67cfe6513ecc91b4fb010208cc4ed9103b57215fbc5564b47b7ddf9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
+        $__internal_3bb7fdfa8707ed16af861a820ca4a829ec512ef77f4f37553c0d04d4e361803b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3bb7fdfa8707ed16af861a820ca4a829ec512ef77f4f37553c0d04d4e361803b->enter($__internal_3bb7fdfa8707ed16af861a820ca4a829ec512ef77f4f37553c0d04d4e361803b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
 
         // line 6
         echo "    Réservation
 ";
         
-        $__internal_5e46d15fc67cfe6513ecc91b4fb010208cc4ed9103b57215fbc5564b47b7ddf9->leave($__internal_5e46d15fc67cfe6513ecc91b4fb010208cc4ed9103b57215fbc5564b47b7ddf9_prof);
+        $__internal_3bb7fdfa8707ed16af861a820ca4a829ec512ef77f4f37553c0d04d4e361803b->leave($__internal_3bb7fdfa8707ed16af861a820ca4a829ec512ef77f4f37553c0d04d4e361803b_prof);
 
         
-        $__internal_a97a96b5f147a0349dd99e73c44c9a7fc9846788d7bf7a7ffe37ea95f0fcfebb->leave($__internal_a97a96b5f147a0349dd99e73c44c9a7fc9846788d7bf7a7ffe37ea95f0fcfebb_prof);
+        $__internal_6ac85a8a9c5d99aaab308be74667be98fd7c4b5cbdb292c761f5d9fbe5f7efc3->leave($__internal_6ac85a8a9c5d99aaab308be74667be98fd7c4b5cbdb292c761f5d9fbe5f7efc3_prof);
 
     }
 
     // line 8
     public function block_titre_page_h1($context, array $blocks = array())
     {
-        $__internal_8b9167f944932af7b462d572cb6e087cbc08b0b3455cdbd7f35ecf9589a4c2af = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8b9167f944932af7b462d572cb6e087cbc08b0b3455cdbd7f35ecf9589a4c2af->enter($__internal_8b9167f944932af7b462d572cb6e087cbc08b0b3455cdbd7f35ecf9589a4c2af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
+        $__internal_c089c29a0ff9b9755fd97cc7d02bf22a7adf3020a01128fb1e77a9a9f599cdb8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c089c29a0ff9b9755fd97cc7d02bf22a7adf3020a01128fb1e77a9a9f599cdb8->enter($__internal_c089c29a0ff9b9755fd97cc7d02bf22a7adf3020a01128fb1e77a9a9f599cdb8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
 
-        $__internal_dca1ea7999a5a8703a109422a2d57eda9835b7f7e253dfede431d3b97c143eb3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dca1ea7999a5a8703a109422a2d57eda9835b7f7e253dfede431d3b97c143eb3->enter($__internal_dca1ea7999a5a8703a109422a2d57eda9835b7f7e253dfede431d3b97c143eb3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
+        $__internal_62c2b9b9e691c13af9b0313d87e4a6d9d623bf6bf27ad37603d6a87f6224cd39 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_62c2b9b9e691c13af9b0313d87e4a6d9d623bf6bf27ad37603d6a87f6224cd39->enter($__internal_62c2b9b9e691c13af9b0313d87e4a6d9d623bf6bf27ad37603d6a87f6224cd39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
 
         // line 9
         echo "    Gestion des réservations
 ";
         
-        $__internal_dca1ea7999a5a8703a109422a2d57eda9835b7f7e253dfede431d3b97c143eb3->leave($__internal_dca1ea7999a5a8703a109422a2d57eda9835b7f7e253dfede431d3b97c143eb3_prof);
+        $__internal_62c2b9b9e691c13af9b0313d87e4a6d9d623bf6bf27ad37603d6a87f6224cd39->leave($__internal_62c2b9b9e691c13af9b0313d87e4a6d9d623bf6bf27ad37603d6a87f6224cd39_prof);
 
         
-        $__internal_8b9167f944932af7b462d572cb6e087cbc08b0b3455cdbd7f35ecf9589a4c2af->leave($__internal_8b9167f944932af7b462d572cb6e087cbc08b0b3455cdbd7f35ecf9589a4c2af_prof);
+        $__internal_c089c29a0ff9b9755fd97cc7d02bf22a7adf3020a01128fb1e77a9a9f599cdb8->leave($__internal_c089c29a0ff9b9755fd97cc7d02bf22a7adf3020a01128fb1e77a9a9f599cdb8_prof);
 
     }
 
     // line 11
     public function block_contenus($context, array $blocks = array())
     {
-        $__internal_d70d8199621921c2ff0d1895be459c7f617193966c4fc62cdcbc2856d6620554 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d70d8199621921c2ff0d1895be459c7f617193966c4fc62cdcbc2856d6620554->enter($__internal_d70d8199621921c2ff0d1895be459c7f617193966c4fc62cdcbc2856d6620554_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_850344d4c559349a08b9763900a06fce4d31c5286da1c15125af16c7e8f5c4d8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_850344d4c559349a08b9763900a06fce4d31c5286da1c15125af16c7e8f5c4d8->enter($__internal_850344d4c559349a08b9763900a06fce4d31c5286da1c15125af16c7e8f5c4d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
-        $__internal_48a82180a4c40849c24fafd2963d5272bf5842a69b9f7d58c75d628604e48cec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_48a82180a4c40849c24fafd2963d5272bf5842a69b9f7d58c75d628604e48cec->enter($__internal_48a82180a4c40849c24fafd2963d5272bf5842a69b9f7d58c75d628604e48cec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_ece771a67edd9f719de1e5e8e4c7778eade7eb516a9d2c18f792672ed94a6a12 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ece771a67edd9f719de1e5e8e4c7778eade7eb516a9d2c18f792672ed94a6a12->enter($__internal_ece771a67edd9f719de1e5e8e4c7778eade7eb516a9d2c18f792672ed94a6a12_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
         // line 12
-        echo "<div class=\"row\">
-    <div class=\"col-md-12\">
+        echo "<div class=\"row\" id=\"charge_reservation\">
+    <div class=\"col-md-12\" id=\"tableau\">
         <div class=\"panel panel-default\">
             <div class=\"panel-heading\">
                 Liste des demandes de réservation
-                <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span>
+            </div>
             <div class=\"panel-body\">
-                <div class=\"tableau\">
-                    <table class=\"table table-{1:striped|sm|bordered|hover|inverse} table-inverse table-responsive\" id=\"liste_reservation\">
-                        <thead class=\"thead-inverse\">
-                            <tr id=\"th_1\">
-                                <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Client</th>
-                                <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Bien</th>
-                                <th style=\"width: 5%; height: 20px;\" colspan=\"1\">Détails</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id=\"th_2\">
-                                <!-- CLIENT -->
-                                <td style=\"width: 2%;\">#</td>
-                                <td style=\"width: 17%;\">Prénom & Nom</td>
-                                <td style=\"width: 23%;\"> E-mail</td>
-                                <td style=\"width: 8%;\">Téléphone</td>
-                                <!-- /.CLIENT -->
-                                <!-- BIEN -->
-                                <td style=\"width: 15%;\">Nom</td>
-                                <td style=\"width: 10%;\">Image</td>
-                                <td style=\"width: 10%;\">Adresse</td>
-                                <td style=\"width: 10%;\">Montant</td>
-                                <td style=\"width: 5%;\">&nbsp;</td>
-                                <!-- /.BIEN -->
-                            </tr>
-                            ";
+                <table class=\"table table-{1:inverse} table-inverse table-responsive\" id=\"liste_reservation\">
+                    <thead class=\"thead-inverse\">
+                        <tr id=\"th_1\">
+                            <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Client</th>
+                            <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Bien</th>
+                            <th style=\"width: 5%; height: 20px;\" colspan=\"1\">Détails</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id=\"th_2\">
+                            <!-- CLIENT -->
+                            <td style=\"width: 2%;\">#</td>
+                            <td style=\"width: 17%;\">Prénom & Nom</td>
+                            <td style=\"width: 23%;\"> E-mail</td>
+                            <td style=\"width: 8%;\">Téléphone</td>
+                            <!-- /.CLIENT -->
+                            <!-- BIEN -->
+                            <td style=\"width: 15%;\">Nom</td>
+                            <td style=\"width: 10%;\">Image</td>
+                            <td style=\"width: 10%;\">Adresse</td>
+                            <td style=\"width: 10%;\">Montant</td>
+                            <td style=\"width: 5%;\">&nbsp;</td>
+                            <!-- /.BIEN -->
+                        </tr>
+                        ";
         // line 44
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["reservations"] ?? $this->getContext($context, "reservations")));
@@ -162,40 +162,40 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
         }
         foreach ($context['_seq'] as $context["_key"] => $context["reservation"]) {
             // line 45
-            echo "                            <tr>
-                                <td scope=\"row\">";
+            echo "                        <tr>
+                            <td scope=\"row\">";
             // line 46
             echo twig_escape_filter($this->env, $this->getAttribute($context["loop"], "index", array()), "html", null, true);
             echo "</td>
-                                <td>";
+                            <td>";
             // line 47
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "nomClient", array()), "html", null, true);
             echo "</td>
-                                <td>";
+                            <td>";
             // line 48
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "Client_email", array()), "html", null, true);
             echo "</td>
-                                <td>";
+                            <td>";
             // line 49
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "Client_telephone", array()), "html", null, true);
             echo "</d>
-                                <td>";
+                            <td>";
             // line 50
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "nomBien", array()), "html", null, true);
             echo "</td>
-                                <td class=\"bien_photo\"><img src=\"";
+                            <td class=\"bien_photo\"><img src=\"";
             // line 51
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl($this->getAttribute($context["reservation"], "chemin", array())), "html", null, true);
             echo "\"/></td>
-                                <td>";
+                            <td>";
             // line 52
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "adresse", array()), "html", null, true);
             echo "</td>
-                                <td>";
+                            <td>";
             // line 53
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "prixLoc", array()), "html", null, true);
             echo " f</td>
-                                <td><a class=\"btn btn-primary voir_detail\" data-idreservation=\"";
+                            <td><a class=\"btn btn-primary voir_detail\" data-idreservation=\"";
             // line 54
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "Reservation_id", array()), "html", null, true);
             echo "\" data-idbien=\"";
@@ -203,8 +203,8 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
             echo "\" data-idclient=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($context["reservation"], "Client_id", array()), "html", null, true);
             echo "\" title=\"Voir les détails\">voir</a></td>
-                            </tr>
-                            ";
+                        </tr>
+                        ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
             $context['loop']['first'] = false;
@@ -218,9 +218,8 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['reservation'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 57
-        echo "                        </tbody>
-                    </table>
-                </div>
+        echo "                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -228,10 +227,10 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
 <!--/.row-->
 ";
         
-        $__internal_48a82180a4c40849c24fafd2963d5272bf5842a69b9f7d58c75d628604e48cec->leave($__internal_48a82180a4c40849c24fafd2963d5272bf5842a69b9f7d58c75d628604e48cec_prof);
+        $__internal_ece771a67edd9f719de1e5e8e4c7778eade7eb516a9d2c18f792672ed94a6a12->leave($__internal_ece771a67edd9f719de1e5e8e4c7778eade7eb516a9d2c18f792672ed94a6a12_prof);
 
         
-        $__internal_d70d8199621921c2ff0d1895be459c7f617193966c4fc62cdcbc2856d6620554->leave($__internal_d70d8199621921c2ff0d1895be459c7f617193966c4fc62cdcbc2856d6620554_prof);
+        $__internal_850344d4c559349a08b9763900a06fce4d31c5286da1c15125af16c7e8f5c4d8->leave($__internal_850344d4c559349a08b9763900a06fce4d31c5286da1c15125af16c7e8f5c4d8_prof);
 
     }
 
@@ -271,54 +270,53 @@ class __TwigTemplate_3ed7906d5f2e409372f9203a2d1ec3ea3762cd307c7b0ed0de42fb4a403
     Gestion des réservations
 {% endblock %}
 {% block contenus %}
-<div class=\"row\">
-    <div class=\"col-md-12\">
+<div class=\"row\" id=\"charge_reservation\">
+    <div class=\"col-md-12\" id=\"tableau\">
         <div class=\"panel panel-default\">
             <div class=\"panel-heading\">
                 Liste des demandes de réservation
-                <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span></div>
+                <span class=\"pull-right clickable panel-toggle panel-button-tab-left\"><em class=\"fa fa-toggle-up\"></em></span>
+            </div>
             <div class=\"panel-body\">
-                <div class=\"tableau\">
-                    <table class=\"table table-{1:striped|sm|bordered|hover|inverse} table-inverse table-responsive\" id=\"liste_reservation\">
-                        <thead class=\"thead-inverse\">
-                            <tr id=\"th_1\">
-                                <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Client</th>
-                                <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Bien</th>
-                                <th style=\"width: 5%; height: 20px;\" colspan=\"1\">Détails</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id=\"th_2\">
-                                <!-- CLIENT -->
-                                <td style=\"width: 2%;\">#</td>
-                                <td style=\"width: 17%;\">Prénom & Nom</td>
-                                <td style=\"width: 23%;\"> E-mail</td>
-                                <td style=\"width: 8%;\">Téléphone</td>
-                                <!-- /.CLIENT -->
-                                <!-- BIEN -->
-                                <td style=\"width: 15%;\">Nom</td>
-                                <td style=\"width: 10%;\">Image</td>
-                                <td style=\"width: 10%;\">Adresse</td>
-                                <td style=\"width: 10%;\">Montant</td>
-                                <td style=\"width: 5%;\">&nbsp;</td>
-                                <!-- /.BIEN -->
-                            </tr>
-                            {% for reservation in reservations %}
-                            <tr>
-                                <td scope=\"row\">{{ loop.index }}</td>
-                                <td>{{ reservation.nomClient }}</td>
-                                <td>{{ reservation.Client_email }}</td>
-                                <td>{{ reservation.Client_telephone }}</d>
-                                <td>{{ reservation.nomBien}}</td>
-                                <td class=\"bien_photo\"><img src=\"{{ asset(reservation.chemin) }}\"/></td>
-                                <td>{{ reservation.adresse}}</td>
-                                <td>{{ reservation.prixLoc}} f</td>
-                                <td><a class=\"btn btn-primary voir_detail\" data-idreservation=\"{{ reservation.Reservation_id }}\" data-idbien=\"{{ reservation.Bien_id }}\" data-idclient=\"{{ reservation.Client_id }}\" title=\"Voir les détails\">voir</a></td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
+                <table class=\"table table-{1:inverse} table-inverse table-responsive\" id=\"liste_reservation\">
+                    <thead class=\"thead-inverse\">
+                        <tr id=\"th_1\">
+                            <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Client</th>
+                            <th style=\"width: 47.5%; border-right: 1px solid white; height: 20px;\" colspan=\"4\">Bien</th>
+                            <th style=\"width: 5%; height: 20px;\" colspan=\"1\">Détails</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id=\"th_2\">
+                            <!-- CLIENT -->
+                            <td style=\"width: 2%;\">#</td>
+                            <td style=\"width: 17%;\">Prénom & Nom</td>
+                            <td style=\"width: 23%;\"> E-mail</td>
+                            <td style=\"width: 8%;\">Téléphone</td>
+                            <!-- /.CLIENT -->
+                            <!-- BIEN -->
+                            <td style=\"width: 15%;\">Nom</td>
+                            <td style=\"width: 10%;\">Image</td>
+                            <td style=\"width: 10%;\">Adresse</td>
+                            <td style=\"width: 10%;\">Montant</td>
+                            <td style=\"width: 5%;\">&nbsp;</td>
+                            <!-- /.BIEN -->
+                        </tr>
+                        {% for reservation in reservations %}
+                        <tr>
+                            <td scope=\"row\">{{ loop.index }}</td>
+                            <td>{{ reservation.nomClient }}</td>
+                            <td>{{ reservation.Client_email }}</td>
+                            <td>{{ reservation.Client_telephone }}</d>
+                            <td>{{ reservation.nomBien}}</td>
+                            <td class=\"bien_photo\"><img src=\"{{ asset(reservation.chemin) }}\"/></td>
+                            <td>{{ reservation.adresse}}</td>
+                            <td>{{ reservation.prixLoc}} f</td>
+                            <td><a class=\"btn btn-primary voir_detail\" data-idreservation=\"{{ reservation.Reservation_id }}\" data-idbien=\"{{ reservation.Bien_id }}\" data-idclient=\"{{ reservation.Client_id }}\" title=\"Voir les détails\">voir</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
