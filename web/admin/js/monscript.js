@@ -66,7 +66,7 @@ $(document).ready(function() {
             $("#btn_valider_reserve").on("click", function() {
                 var param = "idReservation=" + $(this).data("idreservation") + "&idClient=" + $(this).data("idclient") + "&idBien=" + $(this).data("idbien");
                 $("#charge_page").load("contrat #charge_contrat", param, function() {
-
+                    alert("fghjgfdf");
                 });
             });
 
