@@ -71,6 +71,10 @@ $(document).ready(function() {
                         $(this).on("change", function() {
                             if ($(this).val() == "accepter") {
                                 $("#pushContrat").show();
+                                $("#pushContrat").on("click", function() {
+                                    window.print();
+                                    return false;
+                                })
                             } else {
                                 $("#pushContrat").hide();
                             }

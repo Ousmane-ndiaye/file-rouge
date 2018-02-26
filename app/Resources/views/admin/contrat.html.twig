@@ -169,7 +169,7 @@
                                             <form method="POST" class="form-group">
                                                 <div class="form-group">
                                                     <label>termes et conditions</label>
-                                                    <textarea class="form-control" readonly="true" rows="15">
+                                                    <textarea id="aImprimer" class="form-control" readonly="true" rows="15">
                                                         Partie II– Les éléments de base du langage Python
                                                         II.1. Pourquoi Python ?
                                                         Quelques notions essentielles sur le langage Python
@@ -212,7 +212,7 @@
                                                         <input type="radio" name="soumContrat" class="soumContrat" value="refuser"> Refuser
                                                     </label>
                                                 </div>
-                                                <button style="color: #1a2b3c;" id="pushContrat"  type="submit" class="btn btn-sucess">Enregistrer</button>
+                                                <button style="color: #1a2b3c;" id="pushContrat"  type="submit" class="btn btn-sucess" data-idreservation="{{ reservation[0].Reservation_id }}" data-idbien="{{ reservation[0].Bien_id }}" data-idclient="{{ reservation[0].Client_id }}">Enregistrer</button>
                                             </form>
                                         </div>
                                     </di>
