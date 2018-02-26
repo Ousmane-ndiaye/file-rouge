@@ -78,6 +78,15 @@ class AdminController extends Controller
     }
 
     /**
+     * @Route("/printcontrat")
+     */
+    public function printcontratAction(Request $request)
+    {
+        return $this->render('admin/printcontrat.html.twig', array(
+        ));
+    }
+
+    /**
      * @Route("/requete_ajax")
      */
     public function requete_ajaxAction(Request $request)

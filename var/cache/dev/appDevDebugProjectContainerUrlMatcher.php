@@ -185,6 +185,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                     return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::contratAction',  '_route' => 'admin_contrat',);
                 }
 
+                // admin_printcontrat
+                if ('/soultana/admin/printcontrat' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\ReservationBundle\\Controller\\AdminController::printcontratAction',  '_route' => 'admin_printcontrat',);
+                }
+
             }
 
         }

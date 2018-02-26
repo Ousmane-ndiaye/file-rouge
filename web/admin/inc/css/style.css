@@ -1,0 +1,60 @@
+body {
+    background: #1a2b3c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    color: black;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.moncontainer {
+    border: 1px solid white;
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.logos {
+    border: 1px solid white;
+    height: 70px;
+}
+
+.logos img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#titre_page {
+    margin-left: 15px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #30a5ff;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+h3,
+h4 {
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 300;
+    color: #30a5ff;
+}

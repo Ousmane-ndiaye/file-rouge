@@ -34,7 +34,7 @@ $(document).ready(function() {
     function champObl(champs) {
         if (champs.val() == "" || champs.val().length <= 2 || champs.val().trim().length <= 2) {
             return "Veuillez remplir le champ " + champs.data('champ');
-        } else if (champs.data('champ') == "nom d'utilisateur" && !champs.val().match(/^[a-zA-Z0-9]+$/i)) {
+        } else if (champs.data('champ') == "nom d'utilisateur" && !champs.val().match(/^[a-zA-Z]+ [a-zA-Z]+$/i)) {
             return "Veillez rentrer un nom d'utilisateur valide";
         } else {
             return "";
@@ -72,7 +72,7 @@ $(document).ready(function() {
                             if ($(this).val() == "accepter") {
                                 $("#pushContrat").show();
                                 $("#pushContrat").on("click", function() {
-                                    window.print();
+                                    printJS('aImprimer', 'html');
                                     return false;
                                 })
                             } else {

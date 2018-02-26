@@ -21,6 +21,10 @@ admin_contrat:
   path:     /contrat
   defaults: { _controller: RESERVATIONBundle:Admin:contrat }
 
+admin_printcontrat:
+  path:     /printcontrat
+  defaults: { _controller: RESERVATIONBundle:Admin:printcontrat }
+
 
 requete_ajax:
   path:     /requete_ajax
