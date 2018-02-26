@@ -66,9 +66,16 @@ $(document).ready(function() {
             $("#btn_valider_reserve").on("click", function() {
                 var param = "idReservation=" + $(this).data("idreservation") + "&idClient=" + $(this).data("idclient") + "&idBien=" + $(this).data("idbien");
                 $("#charge_page").load("contrat #charge_contrat", param, function() {
-                    console.log('------------------------------------');
-                    console.log("tttt");
-                    console.log('------------------------------------');
+                    $(".soumContrat").each(function() {
+                        $("#pushContrat").hide();
+                        $(this).on("change", function() {
+                            if ($(this).val() == "accepter") {
+                                $("#pushContrat").show();
+                            } else {
+                                $("#pushContrat").hide();
+                            }
+                        })
+                    })
                 });
             });
 

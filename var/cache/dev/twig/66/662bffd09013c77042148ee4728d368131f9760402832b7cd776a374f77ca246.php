@@ -24,29 +24,29 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8ef86d2dcee5ee4d049b39b9bb96c95b99cd2e0f816eb96d548017111c9bec60 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8ef86d2dcee5ee4d049b39b9bb96c95b99cd2e0f816eb96d548017111c9bec60->enter($__internal_8ef86d2dcee5ee4d049b39b9bb96c95b99cd2e0f816eb96d548017111c9bec60_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/contrat.html.twig"));
+        $__internal_659489418a5f048a3e2eb40e3e54c9ade374d04f0778fde5bdfd1b5106823c3e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_659489418a5f048a3e2eb40e3e54c9ade374d04f0778fde5bdfd1b5106823c3e->enter($__internal_659489418a5f048a3e2eb40e3e54c9ade374d04f0778fde5bdfd1b5106823c3e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/contrat.html.twig"));
 
-        $__internal_78d995bbe3dace4be810abe8953e1bab8fcaaa381c28e3a63e59a4cf39a1b0e2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_78d995bbe3dace4be810abe8953e1bab8fcaaa381c28e3a63e59a4cf39a1b0e2->enter($__internal_78d995bbe3dace4be810abe8953e1bab8fcaaa381c28e3a63e59a4cf39a1b0e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/contrat.html.twig"));
+        $__internal_52ed9b7aaaa5fea5a8473b969910ce597e29bd766249857e88e08b2c2b4e7cb7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_52ed9b7aaaa5fea5a8473b969910ce597e29bd766249857e88e08b2c2b4e7cb7->enter($__internal_52ed9b7aaaa5fea5a8473b969910ce597e29bd766249857e88e08b2c2b4e7cb7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/contrat.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_8ef86d2dcee5ee4d049b39b9bb96c95b99cd2e0f816eb96d548017111c9bec60->leave($__internal_8ef86d2dcee5ee4d049b39b9bb96c95b99cd2e0f816eb96d548017111c9bec60_prof);
+        $__internal_659489418a5f048a3e2eb40e3e54c9ade374d04f0778fde5bdfd1b5106823c3e->leave($__internal_659489418a5f048a3e2eb40e3e54c9ade374d04f0778fde5bdfd1b5106823c3e_prof);
 
         
-        $__internal_78d995bbe3dace4be810abe8953e1bab8fcaaa381c28e3a63e59a4cf39a1b0e2->leave($__internal_78d995bbe3dace4be810abe8953e1bab8fcaaa381c28e3a63e59a4cf39a1b0e2_prof);
+        $__internal_52ed9b7aaaa5fea5a8473b969910ce597e29bd766249857e88e08b2c2b4e7cb7->leave($__internal_52ed9b7aaaa5fea5a8473b969910ce597e29bd766249857e88e08b2c2b4e7cb7_prof);
 
     }
 
     // line 2
     public function block_accueil($context, array $blocks = array())
     {
-        $__internal_3efa347df799518a63b94ecc28812f15bb576957c218b930759de95e35da626d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3efa347df799518a63b94ecc28812f15bb576957c218b930759de95e35da626d->enter($__internal_3efa347df799518a63b94ecc28812f15bb576957c218b930759de95e35da626d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
+        $__internal_23198f0b239885ac04b92a60e0cd8468f20f8f94fe2d98bab4c4b74d01bd2ea7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_23198f0b239885ac04b92a60e0cd8468f20f8f94fe2d98bab4c4b74d01bd2ea7->enter($__internal_23198f0b239885ac04b92a60e0cd8468f20f8f94fe2d98bab4c4b74d01bd2ea7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
 
-        $__internal_85430b5c7e56382116e6d18bd3eb5d03c7ac8db849da12d82e6c28abf9117355 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_85430b5c7e56382116e6d18bd3eb5d03c7ac8db849da12d82e6c28abf9117355->enter($__internal_85430b5c7e56382116e6d18bd3eb5d03c7ac8db849da12d82e6c28abf9117355_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
+        $__internal_d11c91f4f686e6db4107f38b0fcae8241a30966777b18404b013a681526225d7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d11c91f4f686e6db4107f38b0fcae8241a30966777b18404b013a681526225d7->enter($__internal_d11c91f4f686e6db4107f38b0fcae8241a30966777b18404b013a681526225d7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "accueil"));
 
         // line 3
         echo "    ";
@@ -54,21 +54,21 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
         echo "
 ";
         
-        $__internal_85430b5c7e56382116e6d18bd3eb5d03c7ac8db849da12d82e6c28abf9117355->leave($__internal_85430b5c7e56382116e6d18bd3eb5d03c7ac8db849da12d82e6c28abf9117355_prof);
+        $__internal_d11c91f4f686e6db4107f38b0fcae8241a30966777b18404b013a681526225d7->leave($__internal_d11c91f4f686e6db4107f38b0fcae8241a30966777b18404b013a681526225d7_prof);
 
         
-        $__internal_3efa347df799518a63b94ecc28812f15bb576957c218b930759de95e35da626d->leave($__internal_3efa347df799518a63b94ecc28812f15bb576957c218b930759de95e35da626d_prof);
+        $__internal_23198f0b239885ac04b92a60e0cd8468f20f8f94fe2d98bab4c4b74d01bd2ea7->leave($__internal_23198f0b239885ac04b92a60e0cd8468f20f8f94fe2d98bab4c4b74d01bd2ea7_prof);
 
     }
 
     // line 5
     public function block_titre_page_li($context, array $blocks = array())
     {
-        $__internal_5b5c697e28286913109bfe41248104c9617348a41fb402c4b5483136688e7f01 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_5b5c697e28286913109bfe41248104c9617348a41fb402c4b5483136688e7f01->enter($__internal_5b5c697e28286913109bfe41248104c9617348a41fb402c4b5483136688e7f01_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
+        $__internal_ee1dae3d2f144e56746e741b1881c6ffc741fe57df1686489dec13a91d7023d2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ee1dae3d2f144e56746e741b1881c6ffc741fe57df1686489dec13a91d7023d2->enter($__internal_ee1dae3d2f144e56746e741b1881c6ffc741fe57df1686489dec13a91d7023d2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
 
-        $__internal_cc2b04a571b117d5919c8b6109e7d9b0008c16b753b8b77ce3d1adb3ba0a6ea1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cc2b04a571b117d5919c8b6109e7d9b0008c16b753b8b77ce3d1adb3ba0a6ea1->enter($__internal_cc2b04a571b117d5919c8b6109e7d9b0008c16b753b8b77ce3d1adb3ba0a6ea1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
+        $__internal_1c991f142e3123a965a9370a0d947f3bac507ad93baa177ed75d6887c732f97b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1c991f142e3123a965a9370a0d947f3bac507ad93baa177ed75d6887c732f97b->enter($__internal_1c991f142e3123a965a9370a0d947f3bac507ad93baa177ed75d6887c732f97b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_li"));
 
         // line 6
         echo "    ";
@@ -76,21 +76,21 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
         echo "
 ";
         
-        $__internal_cc2b04a571b117d5919c8b6109e7d9b0008c16b753b8b77ce3d1adb3ba0a6ea1->leave($__internal_cc2b04a571b117d5919c8b6109e7d9b0008c16b753b8b77ce3d1adb3ba0a6ea1_prof);
+        $__internal_1c991f142e3123a965a9370a0d947f3bac507ad93baa177ed75d6887c732f97b->leave($__internal_1c991f142e3123a965a9370a0d947f3bac507ad93baa177ed75d6887c732f97b_prof);
 
         
-        $__internal_5b5c697e28286913109bfe41248104c9617348a41fb402c4b5483136688e7f01->leave($__internal_5b5c697e28286913109bfe41248104c9617348a41fb402c4b5483136688e7f01_prof);
+        $__internal_ee1dae3d2f144e56746e741b1881c6ffc741fe57df1686489dec13a91d7023d2->leave($__internal_ee1dae3d2f144e56746e741b1881c6ffc741fe57df1686489dec13a91d7023d2_prof);
 
     }
 
     // line 8
     public function block_titre_page_h1($context, array $blocks = array())
     {
-        $__internal_a773d8e83d5e051ff2bab08a6af20e55fbf7bd6022a3e8efef6b687da54b0e78 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a773d8e83d5e051ff2bab08a6af20e55fbf7bd6022a3e8efef6b687da54b0e78->enter($__internal_a773d8e83d5e051ff2bab08a6af20e55fbf7bd6022a3e8efef6b687da54b0e78_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
+        $__internal_b92f17567afba268ca6e5cf3fdbfdcecd5a1476438c729d40989df649880991d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b92f17567afba268ca6e5cf3fdbfdcecd5a1476438c729d40989df649880991d->enter($__internal_b92f17567afba268ca6e5cf3fdbfdcecd5a1476438c729d40989df649880991d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
 
-        $__internal_98bd06b4fd25f6a1bf0992771b7523e48e688be9dbe1dbbdd8addf2bedc42c2e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_98bd06b4fd25f6a1bf0992771b7523e48e688be9dbe1dbbdd8addf2bedc42c2e->enter($__internal_98bd06b4fd25f6a1bf0992771b7523e48e688be9dbe1dbbdd8addf2bedc42c2e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
+        $__internal_3f442e11e50b0716c9077b057b5f9f4b9cff2b2fe980543f770213f54264286d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3f442e11e50b0716c9077b057b5f9f4b9cff2b2fe980543f770213f54264286d->enter($__internal_3f442e11e50b0716c9077b057b5f9f4b9cff2b2fe980543f770213f54264286d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page_h1"));
 
         // line 9
         echo "    ";
@@ -98,21 +98,21 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
         echo "
 ";
         
-        $__internal_98bd06b4fd25f6a1bf0992771b7523e48e688be9dbe1dbbdd8addf2bedc42c2e->leave($__internal_98bd06b4fd25f6a1bf0992771b7523e48e688be9dbe1dbbdd8addf2bedc42c2e_prof);
+        $__internal_3f442e11e50b0716c9077b057b5f9f4b9cff2b2fe980543f770213f54264286d->leave($__internal_3f442e11e50b0716c9077b057b5f9f4b9cff2b2fe980543f770213f54264286d_prof);
 
         
-        $__internal_a773d8e83d5e051ff2bab08a6af20e55fbf7bd6022a3e8efef6b687da54b0e78->leave($__internal_a773d8e83d5e051ff2bab08a6af20e55fbf7bd6022a3e8efef6b687da54b0e78_prof);
+        $__internal_b92f17567afba268ca6e5cf3fdbfdcecd5a1476438c729d40989df649880991d->leave($__internal_b92f17567afba268ca6e5cf3fdbfdcecd5a1476438c729d40989df649880991d_prof);
 
     }
 
     // line 11
     public function block_contenus($context, array $blocks = array())
     {
-        $__internal_204650802f64d84c020f6d436018a1f740079014d7c27afad5956e1be0ae7cbe = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_204650802f64d84c020f6d436018a1f740079014d7c27afad5956e1be0ae7cbe->enter($__internal_204650802f64d84c020f6d436018a1f740079014d7c27afad5956e1be0ae7cbe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_f72d7598e102fefd0bdb65d12cd830fcde8867ce6cc2ccb2ddccb4d10ce01243 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f72d7598e102fefd0bdb65d12cd830fcde8867ce6cc2ccb2ddccb4d10ce01243->enter($__internal_f72d7598e102fefd0bdb65d12cd830fcde8867ce6cc2ccb2ddccb4d10ce01243_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
-        $__internal_6586d28b1e57272e33ac119b8ed0c18710533a44335577883270b2fffc1b1abd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6586d28b1e57272e33ac119b8ed0c18710533a44335577883270b2fffc1b1abd->enter($__internal_6586d28b1e57272e33ac119b8ed0c18710533a44335577883270b2fffc1b1abd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_2fd59335de9dbd2151d4efae5f177f2ead0ce17f13048769192f97c7fa429af0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2fd59335de9dbd2151d4efae5f177f2ead0ce17f13048769192f97c7fa429af0->enter($__internal_2fd59335de9dbd2151d4efae5f177f2ead0ce17f13048769192f97c7fa429af0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
         // line 12
         echo "    <div class=\"row\" id=\"charge_contrat\">
@@ -316,18 +316,51 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
                                         <div class=\"col-md-12\">
                                             <form method=\"POST\" class=\"form-group\">
                                                 <div class=\"form-group\">
-                                                    <label>Text area</label>
-                                                    <textarea class=\"form-control\" rows=\"5\"></textarea>
+                                                    <label>termes et conditions</label>
+                                                    <textarea class=\"form-control\" readonly=\"true\" rows=\"15\">
+                                                        Partie II– Les éléments de base du langage Python
+                                                        II.1. Pourquoi Python ?
+                                                        Quelques notions essentielles sur le langage Python
+                                                        Python est un langage de programmation généraliste, facile à apprendre et rapide à
+                                                        mettre en œuvre.
+                                                        Python est généraliste car, selon les multiples réalisations qu'il a à son actif, il peut
+                                                        être utilisé dans tous les domaines : écriture d'applications pour le Web (serveur
+                                                        d'application Zope, framework Django), programmes de calculs mathématiques
+                                                        (biblithèque SciPy), interfaces graphiques (il existe des supports de Python pour les
+                                                        sytèmes d'interface graphique GTK, Qt, TK, wxWidget), programmation de scripts
+                                                        systèmes, etc.
+                                                        De fait, Python dispose d'une très large bibliothèque standard qui offre au
+                                                        programmeur des outils très divers pour : la gestion réseau (librairie socket), la
+                                                        manipulation du format xml, l'accès aux protocoles d'Internet (protocoles des services
+                                                        courriel, divers protocoles web), l'accès aux éléments du système d'exploitation
+                                                        sous-jacent (accès aux fichiers et répertoires, gestion des processus), l'écriture
+                                                        d'interfaces graphiques (librairie Tkinter), l'accès aux bases de données relationnelles,
+                                                        etc.
+                                                        Il est aussi possible d'étendre Python en intégrant de nouveaux modules. Par exemple
+                                                        la librairie PIL permet de traiter des images.
+                                                        [The Python Standard Library: http://docs.python.org/2/library/index.html]
+                                                        Python est facile à apprendre car de nombreuses opérations dévolues au programmeur
+                                                        dans les langages classiques comme le langage C, par exemple la gestion de la
+                                                        mémoire, sont prises en charge par l'interpréteur Python. De même, Python gère
+                                                        dynamiquement les variables et libère le programmeur des déclarations de type.
+                                                        De plus Python impose d'écrire les blocs d'instructions de manière indentée, ce qui
+                                                        favorise grandement la lecture des programmes.
+                                                        Enfin, en tant que langage interprété (voir dans la partie I de ce cours), Python est
+                                                        rapide à mettre en œuvre. Il suffit de lancer la console Python pour avoir sous la min
+                                                        de quoi tester directement des commandes et des structures de données. Cela est un
+                                                        gain de temps pour le programmeur par rapport au cycle compilation/édition de liens
+                                                        du langage C.
+                                                    </textarea>
                                                 </div>
-                                                <div class=\"checkbox\">
+                                                <div class=\"radio\">
                                                     <label style=\"font-weight: bold;\">
-                                                        <input type=\"checkbox\" name=\"soumContrat\" id=\"soumContrat\" value=\"accepter\"> Accepter
+                                                        <input type=\"radio\" name=\"soumContrat\" class=\"soumContrat\" value=\"accepter\"> Accepter
                                                     </label>
                                                     <label style=\"font-weight: bold;\">
-                                                        <input type=\"checkbox\" name=\"soumContrat\" id=\"soumContrat\" value=\"refuser\"> Refuser
+                                                        <input type=\"radio\" name=\"soumContrat\" class=\"soumContrat\" value=\"refuser\"> Refuser
                                                     </label>
                                                 </div>
-                                                <button style=\"color: #1a2b3c;\" type=\"submit\" class=\"btn btn-sucess\">Enregistrer</button>
+                                                <button style=\"color: #1a2b3c;\" id=\"pushContrat\"  type=\"submit\" class=\"btn btn-sucess\">Enregistrer</button>
                                             </form>
                                         </div>
                                     </di>
@@ -346,10 +379,10 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
     </div>
 ";
         
-        $__internal_6586d28b1e57272e33ac119b8ed0c18710533a44335577883270b2fffc1b1abd->leave($__internal_6586d28b1e57272e33ac119b8ed0c18710533a44335577883270b2fffc1b1abd_prof);
+        $__internal_2fd59335de9dbd2151d4efae5f177f2ead0ce17f13048769192f97c7fa429af0->leave($__internal_2fd59335de9dbd2151d4efae5f177f2ead0ce17f13048769192f97c7fa429af0_prof);
 
         
-        $__internal_204650802f64d84c020f6d436018a1f740079014d7c27afad5956e1be0ae7cbe->leave($__internal_204650802f64d84c020f6d436018a1f740079014d7c27afad5956e1be0ae7cbe_prof);
+        $__internal_f72d7598e102fefd0bdb65d12cd830fcde8867ce6cc2ccb2ddccb4d10ce01243->leave($__internal_f72d7598e102fefd0bdb65d12cd830fcde8867ce6cc2ccb2ddccb4d10ce01243_prof);
 
     }
 
@@ -548,18 +581,51 @@ class __TwigTemplate_9d76964389d7c8b2d3136662f0ee0551fcdeabd0293f72ab8e2b8e60c50
                                         <div class=\"col-md-12\">
                                             <form method=\"POST\" class=\"form-group\">
                                                 <div class=\"form-group\">
-                                                    <label>Text area</label>
-                                                    <textarea class=\"form-control\" rows=\"5\"></textarea>
+                                                    <label>termes et conditions</label>
+                                                    <textarea class=\"form-control\" readonly=\"true\" rows=\"15\">
+                                                        Partie II– Les éléments de base du langage Python
+                                                        II.1. Pourquoi Python ?
+                                                        Quelques notions essentielles sur le langage Python
+                                                        Python est un langage de programmation généraliste, facile à apprendre et rapide à
+                                                        mettre en œuvre.
+                                                        Python est généraliste car, selon les multiples réalisations qu'il a à son actif, il peut
+                                                        être utilisé dans tous les domaines : écriture d'applications pour le Web (serveur
+                                                        d'application Zope, framework Django), programmes de calculs mathématiques
+                                                        (biblithèque SciPy), interfaces graphiques (il existe des supports de Python pour les
+                                                        sytèmes d'interface graphique GTK, Qt, TK, wxWidget), programmation de scripts
+                                                        systèmes, etc.
+                                                        De fait, Python dispose d'une très large bibliothèque standard qui offre au
+                                                        programmeur des outils très divers pour : la gestion réseau (librairie socket), la
+                                                        manipulation du format xml, l'accès aux protocoles d'Internet (protocoles des services
+                                                        courriel, divers protocoles web), l'accès aux éléments du système d'exploitation
+                                                        sous-jacent (accès aux fichiers et répertoires, gestion des processus), l'écriture
+                                                        d'interfaces graphiques (librairie Tkinter), l'accès aux bases de données relationnelles,
+                                                        etc.
+                                                        Il est aussi possible d'étendre Python en intégrant de nouveaux modules. Par exemple
+                                                        la librairie PIL permet de traiter des images.
+                                                        [The Python Standard Library: http://docs.python.org/2/library/index.html]
+                                                        Python est facile à apprendre car de nombreuses opérations dévolues au programmeur
+                                                        dans les langages classiques comme le langage C, par exemple la gestion de la
+                                                        mémoire, sont prises en charge par l'interpréteur Python. De même, Python gère
+                                                        dynamiquement les variables et libère le programmeur des déclarations de type.
+                                                        De plus Python impose d'écrire les blocs d'instructions de manière indentée, ce qui
+                                                        favorise grandement la lecture des programmes.
+                                                        Enfin, en tant que langage interprété (voir dans la partie I de ce cours), Python est
+                                                        rapide à mettre en œuvre. Il suffit de lancer la console Python pour avoir sous la min
+                                                        de quoi tester directement des commandes et des structures de données. Cela est un
+                                                        gain de temps pour le programmeur par rapport au cycle compilation/édition de liens
+                                                        du langage C.
+                                                    </textarea>
                                                 </div>
-                                                <div class=\"checkbox\">
+                                                <div class=\"radio\">
                                                     <label style=\"font-weight: bold;\">
-                                                        <input type=\"checkbox\" name=\"soumContrat\" id=\"soumContrat\" value=\"accepter\"> Accepter
+                                                        <input type=\"radio\" name=\"soumContrat\" class=\"soumContrat\" value=\"accepter\"> Accepter
                                                     </label>
                                                     <label style=\"font-weight: bold;\">
-                                                        <input type=\"checkbox\" name=\"soumContrat\" id=\"soumContrat\" value=\"refuser\"> Refuser
+                                                        <input type=\"radio\" name=\"soumContrat\" class=\"soumContrat\" value=\"refuser\"> Refuser
                                                     </label>
                                                 </div>
-                                                <button style=\"color: #1a2b3c;\" type=\"submit\" class=\"btn btn-sucess\">Enregistrer</button>
+                                                <button style=\"color: #1a2b3c;\" id=\"pushContrat\"  type=\"submit\" class=\"btn btn-sucess\">Enregistrer</button>
                                             </form>
                                         </div>
                                     </di>
